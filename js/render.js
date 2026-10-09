@@ -11,11 +11,15 @@
   function liste(items, ordered) {
     const tag = ordered ? 'ol' : 'ul';
     return `<${tag}>${items
-      .map((it) =>
-        typeof it === 'string'
-          ? `<li>${fmt(it)}</li>`
-          : `<li>${fmt(it.texte)}${it.sous ? liste(it.sous) : ''}</li>`
-      )
+      .map((it) => {
+        if (typeof it === 'string') return `<li>${fmt(it)}</li>`;
+        if (it.tableau) return `<li class="li-table">${BLOCS.tableau(it.tableau)}</li>`;
+        // Élément dépliant (bloc « toggle » de Notion)
+        if (it.replie && it.sous) {
+          return `<li class="li-toggle"><details><summary>${fmt(it.texte)}</summary>${liste(it.sous)}</details></li>`;
+        }
+        return `<li>${fmt(it.texte)}${it.sous ? liste(it.sous) : ''}</li>`;
+      })
       .join('')}</${tag}>`;
   }
 
@@ -36,6 +40,22 @@
   const BLOCS = {
     p: (b) => `<p>${fmt(b.texte)}</p>`,
 
+    titre: (b) => `<h4>${fmt(b.texte)}</h4>`,
+
+    image: (b) => `
+      <figure class="figure-img">
+        <img src="${esc(b.src)}" alt="${esc(b.legende || '')}" loading="lazy">
+        ${b.legende ? `<figcaption>${fmt(b.legende)}</figcaption>` : ''}
+      </figure>`,
+
+    // Rangée de colonnes Notion : une carte par colonne
+    colonnes: (b) => `
+      <div class="cols" style="--n:${Math.min(b.items.length, 4)}">${b.items
+        .map((c) => `<div class="col-card">${c.titre ? `<h4 class="col-title">${fmt(c.titre)}</h4>` : ''}${c.blocs
+          .map(EDN.renderBloc)
+          .join('')}</div>`)
+        .join('')}</div>`,
+
     liste: (b) => (b.titre ? `<h4>${fmt(b.titre)}</h4>` : '') + liste(b.items, b.ordonnee),
 
     encadre: (b) => `
@@ -49,7 +69,7 @@
       <figure class="table-wrap">
         ${b.titre ? `<figcaption>${fmt(b.titre)}</figcaption>` : ''}
         <div class="table-scroll"><table class="${b.comparatif ? 'compare' : ''}">
-          <thead><tr>${b.colonnes.map((c) => `<th scope="col">${fmt(c)}</th>`).join('')}</tr></thead>
+          ${b.sansEntete ? '' : `<thead><tr>${b.colonnes.map((c) => `<th scope="col">${fmt(c)}</th>`).join('')}</tr></thead>`}
           <tbody>${b.lignes
             .map((l) => `<tr>${l.map((c, i) => {
               const nw = String(c).length <= 12 ? ' class="nw"' : ''; // valeurs courtes : pas de retour à la ligne

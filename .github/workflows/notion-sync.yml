@@ -1,0 +1,46 @@
+# Synchronise la base Notion « Items » vers le site.
+# Prérequis : secret de dépôt NOTION_TOKEN (Settings > Secrets and variables > Actions),
+# et l'intégration Notion connectée à la base « Items ». Voir README.md.
+name: Synchronisation Notion
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Réimporter toutes les pages (même non modifiées)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 4 * * *" # tous les jours vers 6 h (heure de Paris)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notion-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronisation
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python3 scripts/notion-sync.py ${{ inputs.force && '--force' || '' }}
+      - name: Commit des changements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/notion assets/notion
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "Synchronisation Notion ($(date -u +%Y-%m-%d))"
+            git push
+          fi

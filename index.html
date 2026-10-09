@@ -32,8 +32,13 @@
 
     <section class="stage" aria-label="Corps humain interactif">
       <div class="stage-glow"></div>
+      <div class="seg sex-toggle" role="group" aria-label="Silhouette">
+        <button data-sexe="femme" class="is-on">Femme</button>
+        <button data-sexe="homme">Homme</button>
+      </div>
       <div id="body" class="body-wrap"></div>
       <div id="tooltip" class="tooltip" hidden></div>
+      <p class="credit">Illustration : <a href="https://github.com/ebi-gene-expression-group/anatomogram" target="_blank" rel="noopener">EMBL-EBI Expression Atlas</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>, couleurs modifiées</p>
       <p class="stage-hint">Survolez puis cliquez sur un organe · la peau est cliquable aussi</p>
     </section>
   </main>
@@ -44,7 +49,10 @@
 
   <script src="data/organes.js"></script>
   <script src="data/index.js"></script>
+  <script src="data/notion/index.js"></script>
   <script src="js/common.js"></script>
+  <script src="assets/anatomogram/corps-femme.js"></script>
+  <script src="assets/anatomogram/corps-homme.js"></script>
   <script src="js/anatomy.js"></script>
   <script src="js/home.js"></script>
 </body>

@@ -14,16 +14,22 @@
   const crumbs = `<nav class="crumbs"><a href="index.html">Corps</a> <span>›</span>
     <a href="organe.html?o=${fromOrgan.id}">${EDN.esc(fromOrgan.nom)}</a> <span>›</span> ${EDN.esc(p.titre)}</nav>`;
 
+  const notionLink = p.source === 'notion'
+    ? `<a class="btn-ghost" href="${EDN.notionUrl(p)}" target="_blank" rel="noopener">Ouvrir dans Notion ↗</a>` : '';
+
   if (p.statut !== 'redigee') {
     app.innerHTML = `${crumbs}
-      <header class="fiche-head"><div class="patho-badges">${EDN.itemBadges(p.items)}</div><h1>${EDN.esc(p.titre)}</h1></header>
-      <div class="callout callout-info"><p class="callout-title">Fiche en cours de rédaction</p>
-      <p>Cette pathologie est référencée mais sa fiche n'est pas encore écrite. Créez <code>data/fiches/${EDN.esc(p.id)}.js</code>
-      en partant de <code>data/fiches/_modele.js</code>, puis passez son statut à <code>'redigee'</code> dans <code>data/index.js</code>.</p></div>`;
+      <header class="fiche-head"><div class="patho-badges">${EDN.itemBadges(p.items)}
+        ${(p.matieres || []).map((m) => `<span class="badge badge-muted">${EDN.esc(m)}</span>`).join('')}</div>
+        <h1>${EDN.esc(p.titre)}</h1>
+        <div class="fiche-actions">${notionLink}</div></header>
+      <div class="callout callout-info"><p class="callout-title">Fiche pas encore importée sur le site</p>
+      <p>Le contenu de cette fiche est dans ton Notion${p.etat === 'termine' ? '' : ' (fiche marquée « ' + EDN.esc(p.etat.replace('-', ' ')) + ' »)'}.
+      Il sera disponible ici après la prochaine synchronisation (<code>scripts/notion-sync.mjs</code>, voir le README).</p></div>`;
     return;
   }
 
-  EDN.loadScript(`data/fiches/${encodeURIComponent(p.id)}.js`)
+  EDN.loadScript(EDN.ficheScript(p))
     .then(() => render(EDN.fiches[p.id]))
     .catch((e) => (app.innerHTML = `${crumbs}<p class="error">${EDN.esc(e.message)}</p>`));
 
@@ -38,13 +44,15 @@
         <h1>${EDN.esc(p.titre)}</h1>
         ${f.definition ? `<p class="lead">${EDN.fmt(f.definition)}</p>` : ''}
         <div class="fiche-actions">
-          <div class="seg" role="group" aria-label="Filtrer par rang">
+          ${sections.some((x) => x.rang) ? `<div class="seg" role="group" aria-label="Filtrer par rang">
             <button data-rang-filter="all" class="is-on">Tout</button>
             <button data-rang-filter="A">Rang A uniquement</button>
-          </div>
+          </div>` : ''}
+          ${f.sections.some((x) => JSON.stringify(x.blocs).includes('"replie":true')) ? '<button class="btn-ghost" data-toggle-all>Tout déplier</button>' : ''}
           <button class="btn-ghost" onclick="window.print()">Imprimer / PDF</button>
+          ${notionLink}
         </div>
-        <p class="disclaimer">Numéros d'items et rangs indicatifs : à vérifier sur la liste officielle du R2C.</p>
+        ${p.source === 'atlas' ? '<p class="disclaimer">Fiche de synthèse Atlas · rangs A/B indicatifs.</p>' : '<p class="disclaimer">Fiche importée de Notion' + (f.maj ? ' · synchronisée le ' + EDN.esc(f.maj) : '') + '.</p>'}
       </header>
 
       <div class="fiche-layout">
@@ -60,7 +68,7 @@
           ${f.pointsCles ? `<section id="points-cles" class="keypoints"><h2>Les points clés</h2>
             <ol>${f.pointsCles.map((k) => `<li>${EDN.fmt(k)}</li>`).join('')}</ol></section>` : ''}
           ${sections.map((s) => `
-            <section id="${s.anchor}" class="fiche-section" data-rang="${EDN.esc(s.rang || '')}">
+            <section id="${s.anchor}" class="fiche-section ${s.couleur ? 'sec-' + EDN.esc(s.couleur) : ''}" data-rang="${EDN.esc(s.rang || '')}">
               <h2>${EDN.esc(s.titre)} ${EDN.rangBadge(s.rang)}</h2>
               ${s.blocs.map(EDN.renderBloc).join('')}
             </section>`).join('')}
@@ -70,6 +78,17 @@
       </div>`;
 
     EDN.bindScores(app);
+
+    // À l'impression, tout est déplié
+    window.addEventListener('beforeprint', () => app.querySelectorAll('.fiche details').forEach((d) => (d.open = true)));
+
+    // Déplier / replier tous les blocs dépliants
+    const tgl = app.querySelector('[data-toggle-all]');
+    if (tgl) tgl.addEventListener('click', () => {
+      const open = tgl.textContent === 'Tout déplier';
+      app.querySelectorAll('.fiche details').forEach((d) => (d.open = open));
+      tgl.textContent = open ? 'Tout replier' : 'Tout déplier';
+    });
 
     // Filtre par rang : masque sections et blocs d'un autre rang (les éléments sans rang restent visibles)
     app.querySelectorAll('[data-rang-filter]').forEach((btn) =>

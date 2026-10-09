@@ -13,6 +13,10 @@
  *   { type: 'cartes', items: [{ titre, texte: 'texte' | [liste], accent?: 'rouge'|'bleu'|'ambre'|'violet' }] }
  *   { type: 'algo', titre?, noeuds: [ 'étape' | { texte, style?: 'question'|'action'|'fin' } |
  *                                     { choix: [{ si: 'condition', alors: [noeuds...] }] } ] }
+ *   { type: 'colonnes', items: [{ titre, blocs: [blocs...] }] }   (une carte par colonne, comme dans Notion)
+ *   { type: 'titre', texte }                                       (intertitre)
+ *   { type: 'image', src, legende? }
+ *   Élément de liste dépliant : { texte, sous: [...], replie: true } ; tableau dans une liste : { tableau: {…} }
  *   { type: 'schema', svg: '<svg viewBox=...>…</svg>', legende? }
  *        → classes SVG qui suivent le thème : s-line s-thin s-accent s-teal s-violet
  *          s-box s-box-accent s-box-teal s-box-violet s-text s-small s-bold s-fill-accent s-arrow

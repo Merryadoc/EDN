@@ -1,0 +1,1146 @@
+nom|matieres|etat|notion_id
+Item 0 - Biais|LCA|T|2e6044b2106c8035a3c8d3271e97be5e
+Item 0 - Causalité|LCA|T|2e6044b2106c808cb14df38cab1c069e
+Item 0 - Définitions de base en LCA|LCA|T|2e6044b2106c80269132efe3b733b143
+Item 0 - Essai contrôlé randomisé (randomized control trial)|LCA|P|2e6044b2106c80afbf1ed69199ab70bf
+Item 0 - Etude diagnostique (diagnostic study)|LCA|T|2e6044b2106c80238f95c806e2d3cd0c
+Item 0 - Etudes cas-témoins (case-control study)|LCA|T|2e6044b2106c8052af82f0e6c1e88b83
+Item 0 - Etudes de cohorte (cohort study)|LCA|T|2e6044b2106c8002bf18c0eaf1005864
+Item 0 - Etudes transversales (cross-sectional study)|LCA|T|2e6044b2106c8037bb60cdbee2f3ad62
+Item 0 - Evaluation des tests diagnostiques|LCA|T|2e6044b2106c80e4b48ec7f8a46ac8e6
+Item 0 - Mesures de fréquence, d’assocciation et d’impact|LCA|T|2e6044b2106c80b98799f270174137d1
+Item 0 - Revues systématique et méta-analyse (systematic review and meta-analysis)|LCA|T|2e6044b2106c801e83bad093cecbcfda
+Item 0 - Signification statistique|LCA|T|2e6044b2106c8003a33bfd1cd1168197
+Item 0 - Statistiques descriptives et intervalles de confiance|LCA|T|2e6044b2106c80749646fb36ce3cdac5
+Item 0 - Tests satistiques|LCA|T|2e6044b2106c8089905ed145f4f1535d
+Item 0 - Types d’analyses statistiques|LCA|T|2e6044b2106c80f6b762cdaf7ab8e943
+Item 0 - Validité|LCA|T|2e6044b2106c80d08b7cde72cdc3ff37
+Item 1 - Relation médecin-malade|Santé Publique|P|2e6044b2106c80d2ad47ec186ea9fe34
+Item 10 - Approches transversales du corps|Médecine Légale|P|2e6044b2106c8037a3d1edd294f8f770
+Item 100 - Céphalée aiguë|Neuro|T|5956e91b54e34eb8b93763f5fbd5e7db
+Item 100 - Céphalée chronique|Neuro|T|7c0bda155c714efdabf1105bc7251164
+Item 100 - Céphalée de l’enfant|Neuro,Pédiatrie|T|1d8044b2106c807b9182c69200985def
+Item 100 - Céphalée de tension|Neuro|T|92728d3430cc40a4b1c790c829b2b7a2
+Item 100 - Céphalées|Ophtalmo,Neuro|T|1d8044b2106c80b6bb3be874f3b006cd
+Item 101 - Paralysie faciale|Neuro,ORL|T|35bc672792f44b80a2f7ece78223a14c
+Item 101 - Paralysie faciale idiopathique dite de Bell|Neuro,ORL|T|c1e8cb3bb40a4294bfb01f09a0f6a43a
+Item 102 - Diagnostics spécifiques de diplopie|Ophtalmo|T|2f6044b2106c807d8d5ddca7c86ed2c0
+Item 102 - Diplopie|Ophtalmo|T|1d8044b2106c80f59904c3a3ec059b12
+Item 103 - Labyrinthite|Neuro,ORL,Infectio|T|2b6044b2106c8019b1e5e8a1e33ee235
+Item 103 - Maladie de Ménière|Neuro,ORL|T|2b6044b2106c801d9258d46f8fd616cf
+Item 103 - Migraine vestibulaire|Neuro,ORL|T|2b6044b2106c80de832bcc4dbf6a1fdd
+Item 103 - Névrite vestibulaire|Neuro,ORL|T|2b6044b2106c809f9ba2ddcd19529170
+Item 103 - Vertige Paroxystique Positionnel Bénin|Neuro,ORL|T|2b6044b2106c800eb91bfaf165bf1736
+Item 103 - Vertiges|Neuro,ORL|T|0311d3fdd8a34167a0aaf6f7dd7bd8dd
+Item 103 - Zona auriculaire|Neuro,ORL,Infectio|T|2b6044b2106c8047999cc04a285eb365
+Item 104 - Sclérose En Plaques|Neuro|T|994ba1f5ec6547288b75adf1135b6df3
+Item 105 - Crises épileptiques focales|Neuro,Urgences-Anesth-Réa|T|b9c91574c7c54f0c974a7afe8344e61f
+Item 105 - Crises épileptiques généralisées|Neuro,Urgences-Anesth-Réa|T|08ef725734564feb98a0b5875cdf9d8e
+Item 105 - Epilepsie|Neuro|T|259f79f8b7e04507ad38d913342c42a6
+Item 105 - Epilepsie de l’enfant|Neuro,Pédiatrie|T|07e60ed55cca47bc961623400fab8a4d
+Item 105 - Etat de mal épileptique|Neuro,Urgences-Anesth-Réa|T|ff6abd5523be48cf9750748fe9cfd0df
+Item 106 - Atrophie multisystématisée|Neuro|T|58f20dbff85a493dacb9387cc7cb693b
+Item 106 - Maladie de Parkinson|Neuro|T|adec0e879172495e8ce49082e060c015
+Item 106 - Maladie de Wilson|Neuro,HGE|T|c4bb54fdfca24bf99712f484c9e9578f
+Item 106 - Paralysie Supranucléaire Progressive|Neuro|T|12f7e4ebb7764649b1f0fa66a3ead19d
+Item 107 - Chorées|Neuro|T|201c7874e6874a99b71519392342946e
+Item 107 - Dystonies|Neuro|T|53d026ec1f014e9299f940607c1eff80
+Item 107 - Maladie de Huntington|Neuro|T|245cccae4b0e4312b4eeab9b7d15671e
+Item 107 - Mouvements anormaux du sommeil|Neuro|T|32abb4c9ec904f08b86b8a8ae8b93360
+Item 107 - Myoclonies|Neuro|T|e7641edfda7c413c8278fb56dde8e6b2
+Item 107 - Tics|Neuro|T|82a9578d7e644037bbd4d45b1610efc0
+Item 107 - Tremblements|Neuro|T|4c4e01b94a044fbe9e7c620939cab11b
+Item 108 - Confusion et démence|Gériatrie,Neuro|T|bfa3fbcf38b7496b8eaefa9216422d79
+Item 108 - Maladie d’Alzheimer|Gériatrie,Neuro|T|f7ac914f91634197b7576c083f322b61
+Item 109 - Formes cliniques des troubles de la marche et de l’équilibre|MPR,Gériatrie,Ortho,Neuro|T|181cbe15a1bd48088783b85f2a3a30b1
+Item 11 - Violences et santé|Médecine Légale|P|2e6044b2106c808989c7cc59128a6af7
+Item 110 - Hypersomnolence et troubles de l’éveil|Neuro,Psy|T|d28d620aa42047d7b962c31f1b832576
+Item 110 - Insomnie|Neuro,Psy|T|aa46dff294744a7daba4d77c279af25f
+Item 110 - Narcolepsie|Neuro,Psy|T|e7537a38dce84b22b94e9f4bb683031a
+Item 110 - Parasomnie|Neuro,Psy|T|b27627dd981e4d07a0a0004e9836bf78
+Item 110 - Syndrome d’Apnée Obstructive du Sommeil|Pneumo,Psy|T|a287ee3721f14a46861d032e0d4229ce
+Item 110 - Troubles du rythme circadien|Neuro,Psy|T|039f54c433494756bf919ccb769e15e3
+Item 110 - Troubles du sommeil|Neuro,Psy|T|2888058cae58408087c368488924e53e
+Item 110 - Troubles du sommeil de l’enfant|Neuro,Pédiatrie,Psy|T|1d8044b2106c80f39afec7df62ad24c9
+Item 111 - Acné|Dermato|T|e4fcbacf807b4ec987bfbca504f238ca
+Item 111 - Dermatite péri-orale|Dermato|T|8317f4b755bb44648dae849bec063073
+Item 111 - Dermatite séborrhéique|Dermato|T|e032bdd5e7d44889bde0a23e90edc393
+Item 111 - Dermatoses faciales|Dermato|T|b537c031cec0418bbf1d0412e474a211
+Item 111 - Rosacée|Dermato|T|b5eaa435f4ef440089d4f109dcfb3660
+Item 112 - Dermatoses Bulleuses Auto-Immunes|Dermato|T|67faf30a14aa4e6ca1c2f6fc740b7d93
+Item 112 - Pemphigoïde bulleuse|Dermato|T|8f9dc839b0cf4463bb8ad6c3cf9fb108
+Item 112 - Pemphigus vulgaire|Dermato|T|a06a3c4f32ee44ab9e73c1bad0492716
+Item 113 - Angiomes capillaires cutanés acquis|Dermato,Cardio|T|94e0a03cdd704014b9f1e98e6518146f
+Item 113 - Hémangiome infantiles|Dermato,Cardio|T|3898aed8d81941a98a29ccc513370720
+Item 113 - Malformations vasculaires|Dermato,Cardio|T|4a896b664a7643b6a99c493a58a1aa9d
+Item 114 - Exanthème|Dermato|T|bffdf1b4bf1141b39d22b61b7df40e86
+Item 114 - Érythrodermie|Dermato|T|e70053e0bf1042df93f284071e3e8404
+Item 115 - Erythème pigmenté fixe|Dermato|T|3f0cbaf1f9b14cdb85f9b69bec530157
+Item 115 - Erythème polymorphe|Dermato|T|813657502293412b84f591049054951f
+Item 115 - Exanthème Maculo-Papuleux|Dermato|T|06d554d75cec4388a74683c59e19d964
+Item 115 - Nécrolyse Epidermique Toxique (Stevens-Johnson et Lyell)|Dermato|T|e1f247593a114250a700f74d5ecf9ca0
+Item 115 - Photoallergie|Dermato|T|10c044b2106c8021bc7cda21750e8a19
+Item 115 - Phototoxicité|Dermato|T|554ea0e882a045b9898c71667bb2f5e7
+Item 115 - Pustulose Exanthématique Aiguë Généralisée|Dermato|T|3bd93d9f96804ef283623f32cffaafaf
+Item 115 - Syndrome DRESS|Dermato|T|593b7e1165be44f6bbbbdb2c803b1ce1
+Item 115 - Toxidermies|Dermato|T|a8ddf900f08845f58dad7bf508ebee15
+Item 116 - Prurit|Dermato|T|9d7e3baf41b44af089f6d4273abad59d
+Item 117 - Pityriasis rosé de Gibert|Dermato|T|4ac340f13e4c46b189bef7b2e7baf67c
+Item 117 - Psoriasis|Dermato|T|33939b5825f74a1992857d8ba75d5817
+Item 117 - Rhumatisme psoriasique|Rhumato,Dermato|T|d2e56e37194c4e85a0e5b519b59a7504
+Item 118 - Evaluation d’un handicap cognitif|Neuro|P|45d1dab7aa4243a28c6f8a9bc7c0836b
+Item 118 - Personne handicapée|MPR|P|396d6191df374c04ad6ee0fa13e72835
+Item 119 - Soins et accompagnement dans la maladie chronique et le handicap|MPR|P|19ef58372d054629a6a47fc75fe55e42
+Item 12 - Violences sexuelles|Gynéco,Médecine Légale|T|1148220b6cb9404784cb403112a1fef5
+Item 120 - Complications de l’immobilité et du décubitus|MPR|P|9f3ade9c4c7943aaa013fa85837a38f4
+Item 120 - Escarres|Dermato|T|1054f6be0161437a82341bb3aecfad93
+Item 121 -  Handicap psychique|Psy|T|2c6044b2106c8073b5ebddca69e9659c
+Item 122 - Rééducation et réadaptation|MPR,Ortho,Rhumato|T|8ad076a7258347029a220d49ca3b1ba6
+Item 122 - Rééducation et réadaptation ORL|ORL,MPR|T|2b6044b2106c80c7b168e01b9e7013c9
+Item 123 - Rein du sujet âgé|Gériatrie,Néphro|T|2aeab712184943c18c107993fe4ce840
+Item 123 - Vieillissement normal|Gériatrie|P|4f5b4d2e593048bda6dffde1d0ee338b
+Item 124 - Andropause|Uro,Endoc,Gériatrie|T|3a304c37770e4bdb85b25bfce0176021
+Item 124 - Ménopause|Endoc,Gériatrie,Gynéco|T|059244f32b03429283f48a0e9f64b2f8
+Item 125 - Incontinence urinaire|Uro|T|cfc372a3fb89425d85621035cdd8fc24
+Item 125 - Troubles de la miction|Uro|T|592bbb28f7164569b29fc64c86c47d6d
+Item 126 - Dysfonction érectile|Uro,Endoc|T|1a82c920d3214276994e81e433a48410
+Item 126 - Maladie de Lapeyronie|Uro|T|34a2ea643fd24d268bd09a76b8693fd8
+Item 126 - Priapisme|Uro|T|7d4f1e55806f4e68b90c99f814379c58
+Item 127 - Hypertrophie bénigne de prostate|Uro|T|2b589a27db2d4910937997348aafcdff
+Item 128 - Ostéomalacie|Endoc,Rhumato,Ortho|T|da6e9a341e7142c68fa8735a44107b0d
+Item 128 - Ostéopathies fragilisantes|Endoc,Rhumato,Ortho|T|ef17f8fc4c774ffa91fdcdf24b6afe05
+Item 129 - Arthrose|Gériatrie,Rhumato,Ortho|T|8e901c604bf64bdc90fc2d332594ee4d
+Item 129 - Arthrose de la cheville|Gériatrie,Rhumato,Ortho|T|10b044b2106c80a7a9b5f1089ac2b0c3
+Item 129 - Arthrose de la main et du poignet|Gériatrie,Rhumato,Ortho|T|3c98ebbf94b045d48f3dfab0cbe71bc6
+Item 129 - Arthrose digitale|Gériatrie,Rhumato,Ortho|T|26c0b22949d6494a98cf130cb4c45e0f
+Item 129 - Coxarthrose|Gériatrie,Rhumato,Ortho|T|1ec65539629440c089bd57529bfbc104
+Item 129 - Gonarthrose|Gériatrie,Rhumato,Ortho|T|44c58fd7678646089a285abcf5145864
+Item 129 - Omarthrose|Gériatrie,Rhumato,Ortho|T|2ce200598a3740f9a374745bfd832c98
+Item 13 - Certificats médicaux|Médecine Légale|T|2e6044b2106c8067be27d529e383a733
+Item 13 - Décès et législation|Médecine Légale|T|2e9044b2106c803e9195dfab93f347ce
+Item 130 - Examen gériatrique|Gériatrie|P|eca3cea11ca642e48dfe83580f733d4f
+Item 130 - Personne âgée malade|Gériatrie|P|c423bf46752541f59f4f2642b6fd4663
+Item 131 - Troubles de la marche et de l’équilibre|MPR,Gériatrie,Ortho,Neuro|T|a65fddd07ac041a081f432533b33e805
+Item 132 - Dégénérescence fronto-temporale|Gériatrie,Neuro|T|7507176215384bdab4d6ec5fa3843793
+Item 132 - Démence vasculaire|Gériatrie,Neuro|T|898dfc4f0f2c4b0e94cabc5b17b9c36c
+Item 132 - Démence à corps de Lewy|Gériatrie,Neuro|T|a44e8ce8ba1d4ed1bfb737800668ad2f
+Item 132 - Troubles cognitifs du sujet âgé|Gériatrie,Neuro|T|edd568bbd92c4279862317e40edfe84d
+Item 133 - Autonomie et dépendance du sujet âgé|Gériatrie|P|3fce20de1acf4ded958e5ed93980707a
+Item 134 - Bases neuro-physiologique des douleurs|Rhumato,Douleurs et soins palliatifs|T|45d847f55d124cad8d257891375ffe38
+Item 134 - Douleur du sujet âgé|Gériatrie,Douleurs et soins palliatifs|T|5c44948309c34ba98ed5169112cd0b08
+Item 134 - Douleur en cancérologie|Cancéro,Douleurs et soins palliatifs|T|fbcdea9364b54ef3a0b61bd9bb34b2c0
+Item 134 - Stratégie thérapeutique contre la douleur en cancérologie|Cancéro,Douleurs et soins palliatifs,Thérapeutique|T|906570ff9e5e4a7b9267242d4e3311b8
+Item 135 - Analgésie en soins critiques|Urgences-Anesth-Réa,Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c80b78ffcf99463a397fb
+Item 135 - Thérapeutiques antalgiques médicamenteuses|Thérapeutique,Douleurs et soins palliatifs|T|1abc1cefa7e547d4bd34bc1313a81b66
+Item 135 - Thérapeutiques antalgiques non médicamenteuses|Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c805e92c6ec0d122c9751
+Item 136 - Anesthésie|Urgences-Anesth-Réa,Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c8041a549caae6c383d1d
+Item 136 - Anesthésie générale|Urgences-Anesth-Réa,Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c80709732ecfeb99baa19
+Item 136 - Anesthésie locale et loco-régionale|Urgences-Anesth-Réa,Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c80a98dd2fc2bfafa0a88
+Item 137 - Douleurs de l’enfant|Pédiatrie,Douleurs et soins palliatifs,Thérapeutique|T|1d8044b2106c80a8a831fbe92f0bf6f7
+Item 138 - Douleurs de la personne vulnérable|Douleurs et soins palliatifs|T|2ee044b2106c803f8954db171295728a
+Item 139 - Modalités d'organisation des équipes, en établissement de santé et en ambulatoire des soins palliatifs|Douleurs et soins palliatifs|T|2ee044b2106c80b4823bd217a23a19a8
+Item 139 - Soins palliatifs pluridisciplinaires|Douleurs et soins palliatifs|T|2ee044b2106c80c4b46ed104ec1aaa0e
+Item 14 - La mort|Médecine Légale|T|2e6044b2106c80a58e9de49ba2d31fc7
+Item 140 - Accompagnement de la personne malade et de son entourage|Douleurs et soins palliatifs|T|2ee044b2106c809cb4dff62a2feebf3e
+Item 140 - Principaux repères éthiques en soins palliatifs|Douleurs et soins palliatifs|T|2ee044b2106c80fcb7d7efe4cc29b203
+Item 141 - Réponse à la demande d’euthanasie ou de suicide assisté|Douleurs et soins palliatifs|T|2ee044b2106c800680d9f5fcdca0d3ba
+Item 141 - Sédation en phase terminale et dans les situations spécifiques et complexes de la fin de vie|Douleurs et soins palliatifs|T|2ee044b2106c80bab074debaf40163fc
+Item 142 - Soins palliatifs pédiatriques|Pédiatrie,Douleurs et soins palliatifs|T|1d8044b2106c80cb9f05cc0127e3b90c
+Item 143 - Soins palliatifs en réanimation|Urgences-Anesth-Réa,Douleurs et soins palliatifs|T|2ee044b2106c801e9646d3d9b337c185
+Item 144 - Deuil normal et pathologique|Psy|T|2c5044b2106c8029bc85e940b3434e82
+Item 145 - Surveillance des maladies infectieuses transmissibles|Infectio|T|ec0fa74a74d54483aaa1d3e4d3c6a9bd
+Item 146 - Vaccinations|Infectio,Pédiatrie|T|79ac0a114a754d4ba660973be5656927
+Item 147 - Fièvre aiguë chez l’adulte|Infectio|T|845b79e0fceb4893891d2a09e2e621a3
+Item 147 - Fièvre aiguë chez l’enfant|Infectio,Pédiatrie|T|154044b2106c8060ad2ce46244084d59
+Item 148 - Infections naso-sinusiennes|Infectio,ORL|T|05ac09b43a5348da9fef76b7d08ba330
+Item 148 - Rhino-sinusites de l’enfant|Infectio,Pédiatrie,ORL|T|153044b2106c804291f0c0b4a16cc88f
+Item 148 - Rhinopharyngite|Infectio,ORL|T|9b86b4e677524d9089ebec6f114216b4
+Item 148 - Sinusites bactériennes|Infectio,ORL|T|b6f1bd43126c45d4b4140b7dd4aa2155
+Item 149 - Angines|Infectio,ORL|T|bd42bc8dc28d4a8e80603ab025601b37
+Item 15 - Soins psychiatriques sans consentement|Psy,Médecine Légale|T|1d8044b2106c8081b9e0ce2473486074
+Item 150 - Cholestéatome|Infectio,ORL|T|2b6044b2106c80fb93d6ea05eba33afa
+Item 150 - Otite externe|Infectio,ORL|T|0347e93c4d744f569ab3cf8c1de1333f
+Item 150 - Otite moyenne aiguë|Infectio,ORL,Pédiatrie|T|1e054e0857f94808be048a5e0bca895f
+Item 150 - Otite moyenne chronique|Infectio,ORL|T|2b6044b2106c805cbcece99052359553
+Item 150 - Otite séro-muqueuse|Infectio,ORL|T|f50ebf599bea49d8a8cdd207153db1a5
+Item 151 - Abcès cérébral|Infectio,Neuro,Urgences-Anesth-Réa|T|416f11113db842369840152e1fd59733
+Item 151 - Infections neuro-méningées de l’enfant|Infectio,Neuro,Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c801f92c7c0f4dd0139d2
+Item 151 - Méningites|Infectio,Neuro,Urgences-Anesth-Réa|T|35733b2788ba4795aab428524fbbab01
+Item 151 - Méningo-encéphalites|Infectio,Neuro,Urgences-Anesth-Réa|T|d6e9e59a545f4b76a795330d4d46a7eb
+Item 152 - Endocardite infectieuse|Cardio,Infectio,Urgences-Anesth-Réa|T|e7cd692581d84599be8e753dbd3001c9
+Item 153 - Complications des prothèses valvulaires|Cardio,Infectio|T|50f0fc45ff4b4fa48394d993971cce34
+Item 153 - Suivi des prothèses valvulaires|Cardio,Infectio|T|075940bc20f04d7ab935ce178dcecf61
+Item 153 - Surveillance des porteurs de prothèses vasculaire|Cardio,Infectio|T|130044b2106c809887d8f0ca5d73652f
+Item 153 - Types de prothèses valvulaires|Cardio,Infectio|T|beeaf5ffbe7743bb90a0d02cded8a198
+Item 154 - Aspergillose|Pneumo,Infectio,Urgences-Anesth-Réa|T|3bfae6fe5c794a7bbd88e9791c3bbea5
+Item 154 - Bronchiolite aiguë|Pneumo,Infectio,Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c8076b37bd3a3fe58e345
+Item 154 - Bronchite aiguë|Pneumo,Infectio,Urgences-Anesth-Réa|T|da8d0428ce8540bf925d0b25be880f0e
+Item 154 - Infections bronchopulmonaires communautaires|Pneumo,Infectio,Urgences-Anesth-Réa|T|6f22cf2966ed41f6aec140be5de94ba7
+Item 154 - Légionellose|Pneumo,Infectio,Urgences-Anesth-Réa|T|03143ead1a564adf9cb87663d44e15df
+Item 154 - Pneumonie aiguë de l’enfant|Pneumo,Infectio,Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c80bc832ece2962dca269
+Item 154 - Pneumonie virale à SARS-CoV-2|Pneumo,Infectio,Urgences-Anesth-Réa|T|2ee044b2106c80288060f223323cb87e
+Item 154 - Pneumonies Aiguës Communautaires|Pneumo,Infectio,Urgences-Anesth-Réa|T|acc8a3dd6b6a491e94caac963a1d7b2b
+Item 155 - Abcès cutané|Infectio,Dermato,Urgences-Anesth-Réa|T|2474501962824db5bce7ff649fa00bc0
+Item 155 - Acrodermatite chronique atrophiante|Infectio,Dermato|T|ff1dba6513a44587b7a5c3e4d93fb00d
+Item 155 - Candidose buccale|Infectio,Dermato|T|874dd89fe7964672945d665cd744308f
+Item 155 - Cellulite faciale d’origine dentaire|Infectio,Dermato,CMF|T|2b6044b2106c80d895f9c906b0e47ddc
+Item 155 - Dermatophytose de la peau glabre|Infectio,Dermato|T|54e5b02559694ab198514d6f0d67ca2a
+Item 155 - Dermatophytose inguinale|Infectio,Dermato|T|52aa054c1cc94140993193d24fc118d9
+Item 155 - Dermatophytoses palmo-plantaires|Infectio,Dermato|T|77f29bf11a684a69b150cf003eca1e6b
+Item 155 - Dermatophytoses unguéales|Infectio,Dermato|T|204b2628158c4f5bb83ffcbfca1950ac
+Item 155 - Dermo-hypodermite bactérienne non nécrosante|Infectio,Dermato,Urgences-Anesth-Réa|T|789dc32656eb4f41a7d6b8e7816a10aa
+Item 155 - Dermo-hypodermite bactérienne nécrosante|Infectio,Dermato,Urgences-Anesth-Réa|T|ca1608462af4496fbc62c3ea828d403a
+Item 155 - Erythrasma|Infectio,Dermato|T|10dea8bc33704a8b88dbd0750a7bc510
+Item 155 - Erythème migrant|Infectio,Dermato,Urgences-Anesth-Réa|T|9b68d32ec2e84cadb8aceab66cdfc99a
+Item 155 - Folliculite à Malassezia|Infectio,Dermato|T|fa2f2bbec9d446189c14909d3604c50b
+Item 155 - Folliculite, furoncle et anthrax|Infectio,Dermato|T|92db8a48d66d4b3bbdec99f07c1f4af7
+Item 155 - Impétigo|Infectio,Dermato|T|2b46e0bc0fed42f282854d52c301cf4e
+Item 155 - Infections cutanées bactériennes et virales|Infectio,Dermato|T|b8b7b263d62c4dc288f3b4e9a2d15235
+Item 155 - Intertrigo inter-orteils|Infectio,Dermato|T|bae8755da59e4b31b9bf450051dea522
+Item 155 - Lymphangite|Infectio,Dermato,Urgences-Anesth-Réa|T|bf8635b3d9c9462faa74e8595f67aca9
+Item 155 - Lésions dentaires à l’origine d’une cellulite faciale|Infectio,Dermato,CMF|T|2b6044b2106c80e08d52c85a21c2c8ae
+Item 155 - Molluscum contagiosum|Infectio,Dermato|T|6eb54c2bf70d42c087f91ed52a2e42ec
+Item 155 - Mycoses cutanées|Infectio,Dermato|T|6605b58a30294e2a86e1ffadceff6e38
+Item 155 - Panaris|Infectio,Dermato|T|347c884c6268446c9bc9c316ebbcb8a9
+Item 155 - Pityriasis versicolor|Infectio,Dermato|T|501990a003c2407dbd0571f3c45e4083
+Item 155 - Teignes|Infectio,Dermato|T|557dd654ed7f48d8acdcc218a27dcc37
+Item 155 - Verrues cutanées|Infectio,Dermato|T|b87fc1986dae469397ceb1ebfbdb89fd
+Item 156 - Arthrite septique|Infectio,Ortho,Rhumato,Urgences-Anesth-Réa|T|09cc38db9ebf4305bf8b0250d40389aa
+Item 156 - Infections de prothèse|Infectio,Ortho,Rhumato|T|4638fafa8d204dd990940a08db45c8e1
+Item 156 - Infections Ostéo-Articulaires|Infectio,Ortho,Rhumato|T|887130542f69406ab10929611017e2fe
+Item 156 - Ostéite|Infectio,Ortho,Rhumato|T|00da28e7722e4a93a8ef0c4ad192867a
+Item 156 - Ostéomyélite|Infectio,Ortho,Rhumato|T|70fbc588bb764b3b844480d6a5dc1617
+Item 156 - Spondylodiscite|Infectio,Ortho,Rhumato|T|93d9a40bdb974af1bc3884c144c7ffad
+Item 157 - Bactériémie et fongémie|Infectio|T|c28421e0927e4636b6980bd4942a861e
+Item 158 - Choc anaphylactique|Urgences-Anesth-Réa,Pneumo,Cardio|T|2ee044b2106c80c499b6d362d73320f2
+Item 158 - Choc cardiogénique|Urgences-Anesth-Réa,Cardio|T|2ee044b2106c80e4afd4ca356eac0b02
+Item 158 - Choc hypovolémique|Urgences-Anesth-Réa,Cardio|T|2ee044b2106c808ca76ff24a392ed853
+Item 158 - Choc hémorragique|Urgences-Anesth-Réa,Hémato,Cardio|T|2ee044b2106c808fa219c7643f3685bc
+Item 158 - Choc obstructif|Urgences-Anesth-Réa,Cardio,Pneumo|T|2ee044b2106c8090aa3ce105b3481599
+Item 158 - Choc septique|Infectio,Urgences-Anesth-Réa,Cardio|T|0610143bc9344a29a1a93e0aa1368504
+Item 158 - Spécificités pédiatriques du choc septique|Infectio,Pédiatrie,Urgences-Anesth-Réa,Cardio|T|189044b2106c803b9f06debec689f74d
+Item 159 - Tuberculose extra-pulmonaire|Infectio|T|a7c79ea993104e459a780cbc3e516d80
+Item 159 - Tuberculose pulmonaire|Pneumo,Infectio,Urgences-Anesth-Réa|T|3072dabba54a49b4afc699d52886c4c9
+Item 16 - Bases du traitement de l’information en santé|Santé Publique|T|2ec044b2106c80a2a7eaf41298f16f1c
+Item 16 - Organisation du système de soin|Santé Publique|T|2e6044b2106c80819c6fc49569c0b1a3
+Item 16 - Régulation du système de soin|Santé Publique|T|2ec044b2106c80f299ece5127b56826e
+Item 160 - Tétanos|Infectio|T|1a2ffed83ec34f55bcd9eb3bed83def2
+Item 161 - Colonisation urinaire|Infectio,Uro,Néphro|T|3161ba7f494741b0bf534c2710814ded
+Item 161 - Cystite aiguë|Infectio,Uro,Néphro|T|a232512e98494f0890022eb1524d5581
+Item 161 - Cystite récidivante|Infectio,Uro,Néphro|T|1b76c9ef49f745b191212db5fbdc7216
+Item 161 - Infections urinaires|Infectio,Uro,Néphro|T|6d8edd7eae41424086c615cfe1ea1f55
+Item 161 - Infections urinaires chez le sujet sondé|Infectio,Uro,Néphro|T|65a02b8ebc744eeba1c082a42aa7384d
+Item 161 - Infections urinaires chez le sujet âgé|Infectio,Uro,Néphro,Gériatrie|T|840c95ecb3df4432b55d07fecd912fe0
+Item 161 - Infections urinaires chez l’homme|Infectio,Uro,Néphro|T|f0e3f7d7603049a99198d73dde676a1a
+Item 161 - Infections urinaires de l’enfant|Infectio,Uro,Néphro,Pédiatrie|T|1d8044b2106c803ca529eb06e52c007a
+Item 161 - Infections urinaires pendant la grossesse|Infectio,Uro,Néphro|T|dff12424499a4ad7a36ebe859d2d6bde
+Item 161 - Pyélonéphrite aigu|Infectio,Uro,Néphro|T|af3c53f0940e4ef7b67f4f317cee4ad9
+Item 161 - Sepsis urinaire grave|Infectio,Uro,Néphro,Urgences-Anesth-Réa|T|2ee044b2106c80debde7c2334b2795f7
+Item 162 - Cervicite|Infectio,Dermato|T|6c0a527bb92d4595beca709d23717100
+Item 162 - Chancre mou|Infectio,Dermato|T|45e0e73bf8bc48ab841e1413850c9679
+Item 162 - Chlamydia trachomatis|Infectio,Dermato|T|ba83517f90914ee3a55258522a845c1a
+Item 162 - Condylomes|Infectio,Dermato|T|66d00cd4196c4d9aa2a7e91c863e8f87
+Item 162 - Gonococcie|Infectio,Dermato|T|dde7044665414401989ba82d8297bb56
+Item 162 - Herpès génital|Infectio,Dermato|T|b498236be301446fa152a03f863caf22
+Item 162 - Infection Génitale Haute|Infectio,Dermato|T|f8499e0a73704b21bd318ac007b1aa61
+Item 162 - Infections génitales de la femme|Infectio,Dermato|T|53304850e575477d9497528cdc3c4f7e
+Item 162 - Infections Sexuellement Transmissibles|Infectio,Dermato|T|c49e6e43efa042d89054e7bd03ed3ff9
+Item 162 - Mycoplasma genitalium|Infectio,Dermato|T|96dc9806bee04c20b1bfabee46b15465
+Item 162 - Syphilis|Infectio,Dermato|T|3f4e54dc2e50431cb6976070451dd3b0
+Item 162 - Trichomonas vaginalis|Infectio,Dermato|T|fbdef7222cb9424b8f16b496433f90b8
+Item 162 - Vaginose bactérienne|Infectio,Dermato|T|510e2d04f22940f2b0fef3b5c3720a7d
+Item 162 - Vulvo-vaginite|Infectio,Dermato|T|b573645eb6ae440a9763c4c3143c6a96
+Item 163 - Coqueluche|Pneumo,Infectio,Pédiatrie|T|f27c3ecc190b4be1bd216d11395abe3d
+Item 164 - Eruption fébrile de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c805abd5ad2084e69d289
+Item 164 - Exanthèmes subit de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c808a8ff7c4d7e8f5d8d9
+Item 164 - Maladie de Kawasaki de l’enfant|Infectio,Dermato,Pédiatrie|T|0e76d893a8ad499492033165cb942a1e
+Item 164 - Mononucléose infectieuse de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c80f696bcc5b110bcc737
+Item 164 - Mégalérythème épidémique de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c80049ca0f57f0b478894
+Item 164 - Rougeole de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c80b7a71eca3066ec074b
+Item 164 - Rubéole de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c805ab63cd7f1b17dbdd1
+Item 164 - Scarlatine de l’enfant|Infectio,Dermato,Pédiatrie|T|10b044b2106c80df84b8db3c144a0eee
+Item 165 - Oreillons|Infectio,Pédiatrie|T|e715b07ed9f04a0d93b901b91bfd7cd1
+Item 166 - Grippe|Pneumo,Infectio|T|b799144518fc47699c6cdef317598da5
+Item 167 - Hépatite A|Infectio,HGE|T|268560e67924476dbb7c2d76a56cc754
+Item 167 - Hépatite B|Infectio,HGE|T|fabca8c0c16f49459ec811911768283d
+Item 167 - Hépatite C|Infectio,HGE|T|958e341e2bbf470a99a83169eb2ad7c3
+Item 167 - Hépatite D|Infectio,HGE|T|3474987e0e6c41f0a85005ce2639de5c
+Item 167 - Hépatite E|Infectio,HGE|T|1d5dff55d75a4c3fae64934db2342c6d
+Item 167 - Hépatites virales|Infectio,HGE|T|168044b2106c80a6b12ef20216ac6056
+Item 168 - Herpès cutanéo-muqueux|Infectio,Dermato|T|1944044a9c5445c89fdfdf2b319f50c4
+Item 168 - Varicelle|Infectio,Dermato,Pédiatrie|T|ffd9ab8e096d4c89a024d02c4fb07850
+Item 168 - Zona|Infectio,Dermato,Urgences-Anesth-Réa|T|30e79767b82745e19d98d6b31195c54c
+Item 168 - Zona ophtalmique|Ophtalmo,Infectio|T|1d8044b2106c8052a51dcb4f7ed067ec
+Item 169 - Infections à VIH|Infectio|P|6bbf8bb7ecf44bc28ac5d1036c160e3c
+Item 17 - Télésanté|Santé Publique|T|2e6044b2106c80b2a34de5db2aca5e8b
+Item 170 - Paludisme|Infectio,Urgences-Anesth-Réa|T|1d02d1b90f1e421090904930e3ed105b
+Item 171 - Gale|Infectio,Dermato|T|df236dda1ff14ced90c28864ac53534b
+Item 171 - Larva migrans cutanée|Infectio,Dermato|T|f0284da5d6694487ad6f9d90ccd4173b
+Item 171 - Pédiculose|Infectio,Dermato|T|b1834b5225844d53a95f8aa8a464d3d2
+Item 172 - Amœbose|Infectio,HGE|T|d8aa5f2c3f094ab79bf7022690a553d2
+Item 172 - Anguillulose|Infectio,HGE|T|cdb2b2810d1a409fae79fdb1e92cef37
+Item 172 - Ascaridiose|Infectio,HGE|T|8414edb4ac2843979f4993fea79d3729
+Item 172 - Cryptosporidiose|Infectio,HGE|T|c69b8d9ae1264a68b3eb38ea7069f84e
+Item 172 - Giardiose|Infectio,HGE|T|7cb5f7dab00540bb8a212e0a7c3adae3
+Item 172 - Oxyurose|Infectio,HGE|T|dce2d921a871429e8512e6d3f944caff
+Item 172 - Parasitoses digestives|Infectio,HGE|T|5be0e1aac26646668bf95ca5f2888b8f
+Item 172 - Taeniose|Infectio,HGE|T|77da23fa5bcd4e008a03abce36e02d0d
+Item 173 - Brucellose|Infectio|T|6abd16953c3440a792fdec18bb6e958a
+Item 173 - Echinococcose|Infectio|T|6acd30c687894c2296d6eb34e7b8373b
+Item 173 - Fièvre Q|Infectio|T|db6973d60e8a459e9bb93ab5877c208a
+Item 173 - Leishmaniose|Infectio|T|528e14ec43f94387a336147bab1c743e
+Item 173 - Maladie de Lyme|Infectio|T|4f941a8539474bcbadd03acb0227e428
+Item 173 - Maladie des griffes du chat|Infectio|T|27e3186d5ce24f04ab8e2635ff5ea9e6
+Item 173 - Pasteurellose|Infectio|T|411944555f8245388341e46f2826a995
+Item 173 - Rage|Infectio|T|f00bf4e97a1f4eeaa52ed3890d10bd7b
+Item 173 - Rickettsioses|Infectio|T|48270ad122024e278b0177501826e672
+Item 173 - Toxoplasmose|Infectio|T|28222bc35cc849efb36a246fbad63fd2
+Item 173 - Tularémie|Infectio|T|1317b428dfe9488e8aee754f86d417ea
+Item 173 - Zoonoses|Infectio|T|853ba80c5cc0485daf50bfb6560519ee
+Item 174 - Pathologie infectieuse chez les migrants|Infectio|T|76d8cefc530a43a984d2c146c57a40f5
+Item 175 - Virus Zika|Infectio|T|26b752b2b11841de88baef325a416f41
+Item 175 - Voyage en pays tropical|Infectio|T|0c2be6ff44a74f0cb17847771796926b
+Item 176 - Diarrhées infectieuses|Infectio,HGE|T|bef798c599b4472ab6d17a1fba49f944
+Item 177 - Anti-biotiques|Infectio,Thérapeutique|T|d2e9a2594ee54d9d91c846c4b8cec746
+Item 177 - Anti-fongiques|Infectio,Thérapeutique|T|61b66f3b5c114d1ba1e7383bdaef6dce
+Item 177 - Anti-parasitaires|Infectio,Thérapeutique|T|98082d0e2af34c3dad6bdc2b0ffda35f
+Item 177 - Anti-viraux|Infectio,Thérapeutique|T|4492e687c7e94fbd9567a63d6f7c89a0
+Item 177 - Classification des bactéries|Infectio|T|5dbe517978084998b380402f26b1a8d4
+Item 177 - Classification des virus|Infectio|T|0c0f7f3d88fe4e398f0a3cc29093aa15
+Item 178 - Risques émergents, bioterrorisme et maladies hautement transmissibles|Infectio|T|772ff8936cd5436bbb573f9d41b68cdf
+Item 179 - Risques sanitaires liés à l’eau et à l’alimentation|Infectio|T|62b803cdc61f488fa40e7f79a42abe32
+Item 179 - Toxi-Intoxications Alimentaires Communautaires|Infectio,HGE|T|ccdd78abd2cc452bb773e81594ec2429
+Item 18 - Santé et numérique|Santé Publique|P|2e6044b2106c80a69661ccedb2e69871
+Item 180 - Risques liés aux irradiations|Médecine du Travail|P|2e6044b2106c800ca645f59d55e71edb
+Item 181 - Sécurité Sanitaire|Santé Publique|T|2e6044b2106c80cd8c1fd5af869361bb
+Item 182 - Environnement professionnel|Médecine du Travail|P|2e6044b2106c804aadb7c617b0b34a67
+Item 183 - Organisation de la médecine du travail|Médecine du Travail|T|2e6044b2106c8048a68ad6990d87e20f
+Item 184 - Accidents du travail|Médecine du Travail|T|2e7044b2106c80638a22d0d6cc0da582
+Item 184 - Maladies professionnelles|Médecine du Travail|T|2e7044b2106c80268b9ec626e2277265
+Item 184 - Maladies respiratoires d’origine professionnelle|Médecine du Travail,Pneumo|P|2e6044b2106c806f95a8d49ae30af5c1
+Item 184 - Suivi post-professionnel|Médecine du Travail|T|2e6044b2106c80d9af7af0acb85541ca
+Item 185 - Réaction inflammatoire|Rhumato,Médecine Interne|T|865c9e55ad404bb7af43ae78d2936f07
+Item 186 - Hypersensibilités et allergies|Pneumo|P|21d2e3d0adbd4dca982eb623816c02d6
+Item 187 - Dermatite atopique|Dermato|T|e87ce04c511f44d69a3a50d1fa152233
+Item 187 - Dermatose allergique d’origine professionnelle|Dermato,Médecine du Travail|T|9980e9e6cd4f49358f01785c51c277c7
+Item 187 - Eczéma|Dermato|T|b5fd7d5bf7eb4dabb1385f38cf192e28
+Item 187 - Eczéma craquelé|Dermato|T|8d1c4cc30ffb4586988620e14925823e
+Item 187 - Eczéma de contact allergique|Dermato|T|0d4596122e58449294941d79e6427599
+Item 187 - Eczéma nummulaire|Dermato|T|bfd429851d4d417d9d44d4336f02e508
+Item 187 - Eczéma surinfecté|Dermato|T|8c82e60a54344123b21e8fbd5d239a4c
+Item 187 - Eczéma variqueux|Dermato|T|cf86dce17f4345b6835591d7fd858a33
+Item 187 - Urticaire|Dermato|T|0221d718cd3f4de3a8dfd7c5914b10b3
+Item 188 - Asthme|Pneumo|P|4c5883b3096a4db8943226c8cec38c23
+Item 188 - Asthme de l’enfant|Pneumo,Pédiatrie|T|1d8044b2106c80eeb6a2e877a7bf785c
+Item 188 - Crise d’asthme aiguë de l’enfant|Pneumo,Pédiatrie|T|1d8044b2106c804ca948f353c399403a
+Item 188 - Exacerbation d’asthme|Pneumo,Urgences-Anesth-Réa|T|d8717ac9cd6f4935bea3e07a2381d14b
+Item 189 - Déficit immunitaire|Médecine Interne|T|48e68dd84cab4411809b72b95a01db9f
+Item 189 - Déficit immunitaire primitif|Médecine Interne|T|d2360bf6a8314a04913fb81978446368
+Item 189 - Déficit immunitaire secondaire|Médecine Interne|T|596fd996116b40df97337e16a1515619
+Item 19 - Sécurité Sociale|Santé Publique|T|2e6044b2106c8028b8ddc33d970e83b8
+Item 190 - Fièvre prolongée|Infectio,Médecine Interne|T|d5d4248b3e0a42088a6c462c8dc91c64
+Item 191 - Asplénie|Infectio,Médecine Interne|T|fc77302263cb4eb9a269aefa0e0b0b7d
+Item 191 - Fièvre du sujet immunodéprimé|Infectio,Médecine Interne,Urgences-Anesth-Réa|T|2a28cd0dda184589a10d3ae52b0a8fd2
+Item 191 - Neutropénie fébrile|Infectio,Médecine Interne,Urgences-Anesth-Réa|T|7a7cc58b7c2d46658a20ac156fa055db
+Item 192 - Manifestations rénales des connectivites|Néphro,Médecine Interne|T|cc62be0f7aca464f99d760bad33e0d8d
+Item 192 - Myosites|Médecine Interne|T|27d044b2106c80fda964de09c0be74b7
+Item 192 - Pathologies auto-immunes|Médecine Interne|T|0b444745092e4cb3bc73cdcb24fb5081
+Item 192 - Syndrome de Gougerot-Sjögren|Médecine Interne|T|a0f1952a62104abeae88d62205ccd6e7
+Item 193 - Vascularites des artères de moyen calibre|Médecine Interne,Rhumato,Cardio|T|88cb4de30b754e55b8c0aee7f66a41e7
+Item 193 - Vascularites des artères de petit calibre, associées aux ANCA|Médecine Interne,Cardio,Rhumato|T|806db1e6551346dfb8c2a42db691c163
+Item 193 - Vascularites des vaisseaux de petit calibre associées à des dépôts de complexes immuns|Médecine Interne,Rhumato,Cardio|T|828b9bd616bf42af9569af7a12c150fd
+Item 193 - Vascularites des vaisseaux de tout calibre|Médecine Interne,Rhumato,Cardio|T|606e15fda2264be48f84bcb420140c7b
+Item 193 - Vascularites systémiques|Médecine Interne,Cardio,Rhumato|T|501d837a1998421d80b210646a530ede
+Item 194 - Lupus cutané|Dermato,Médecine Interne|T|ea7d7e2e034a4ea7b63094af09e6bd15
+Item 194 - Lupus systémique|Rhumato,Médecine Interne|T|8ac28d3abd624bf5afd5d9d592323ffb
+Item 194 - Syndrome des Anti-PhosphoLipides|Rhumato,Médecine Interne|T|cfe193e6688f47cfb84de397aea6e830
+Item 195 - Artérite à cellules géantes|Médecine Interne,Cardio|T|19132daf7fa6406a9215ca4ff75eb8ef
+Item 195 - Maladie de Takayasu|Rhumato,Cardio|T|800acf7954f74c6bbac5fabacc3d1e3c
+Item 195 - PseudoPolyarthrite Rhizomyélique|Rhumato|T|ed7b5f94f52e42b3a6f4002fea488451
+Item 196 - Polyarthrite rhumatoïde|Rhumato|T|c4973b4b5da942afbc8fad48d4802f99
+Item 197 - Spondylarthrite ankylosante|Rhumato|T|50597cfeffe14573a9f12f1229711949
+Item 197 - Spondylarthrites|Rhumato|T|ce1bd35498614312a0c024e6f21b8076
+Item 198 - Arthropathies microcristallines|Rhumato|T|fb1682d3a2764beb958f981ae178127b
+Item 198 - Goutte|Rhumato|T|556f1c8072e74d07b7b9ef4cd1b4b959
+Item 198 - Rhumatisme apatitique|Rhumato|T|f1a9cac7542f43db982af04ccb34c084
+Item 198 - Rhumatisme à PPC (Chondrocalcinose)|Rhumato|T|e0179f36710f4205a1f965af819ffaab
+Item 199 - Syndrome Douloureux Régional Complexe|Ortho,Rhumato,Douleurs et soins palliatifs|T|6836d34c92e349c2a615d6106d8c4552
+Item 2 - Valeurs des professionnels de santé|Santé Publique|P|2e6044b2106c8028980dec6bc7ca461d
+Item 20 - Méthodologie de la recherche|Santé Publique,LCA|P|2e6044b2106c80299756e1006d7d26f2
+Item 200 - Douleur et épanchement articulaire|Rhumato|T|71c52e08339d46c79c1f1b5685104c76
+Item 200 - Rhumatisme paranéoplasique|Rhumato,Cancéro|T|b0aed59ad1924a60880ed16d614af94f
+Item 201 - Complications cutanées des transplantés|Dermato|T|8edf0652e553463db49b9414d80353ae
+Item 201 - Prélèvements et greffes de cornée|Ophtalmo|T|1d8044b2106c806e8af0ee6a87c10438
+Item 201 - Transplantation d’organes|Urgences-Anesth-Réa|P|2ee044b2106c802fab59d3a7cd94bb09
+Item 201 - Transplantation hépatique|HGE|T|9e97671e7f094a7eb127f6af78cc5408
+Item 201 - Transplantation rénale|Néphro|T|59d1d14a82b54e24b120ce8769c0a29b
+Item 202 - Biothérapies et thérapies ciblées|Rhumato,Médecine Interne|T|fe1f5ff81cc848bf9fc51b4e6e2f614c
+Item 202 - Greffe de Cellules Souches Hématopoïétiques|Rhumato,Médecine Interne|T|c4a92992412b469f9bb1eb298a5447bb
+Item 203 - Dyspnée|Pneumo,Cardio,Urgences-Anesth-Réa|T|8df995b676754d188159197ba8d4cc3a
+Item 203 - Dyspnée de l’enfant|Pneumo,Pédiatrie|T|1d8044b2106c80dbbd7dffdec6ffc59a
+Item 203 - Dyspnée laryngée|Pneumo,ORL|T|2b6044b2106c8035aecef2122623ced6
+Item 203 - Dyspnée laryngée de l’enfant|Pneumo,Pédiatrie,ORL|T|285044b2106c8038b700c9d9fe4aea80
+Item 204 - Toux|Pneumo|P|6a8f94b61a97494d8d5b0be617bb2cb0
+Item 204 - Toux de l’enfant|Pneumo,Pédiatrie|T|1d8044b2106c809b9874c5c0425e7370
+Item 205 - Hémoptysie|Pneumo,Urgences-Anesth-Réa|T|941650f5dfa84dfcb69abbfb22cf228c
+Item 206 - Épanchement pleural|Pneumo,Urgences-Anesth-Réa|T|8d2c5356b0ef4ad4803850c33a5de081
+Item 207 - Opacités et masses intra-thoraciques|Pneumo|P|da2f43504e0c416197a9090e2ceba029
+Item 208 - Insuffisance respiratoire|Pneumo,Urgences-Anesth-Réa|T|12b025213c08434eae1567c8690e4804
+Item 208 - Insuffisance respiratoire chronique|Pneumo|P|14d456d89c8f4b8bb013ca03dbfc11ab
+Item 209 - BPCO|Pneumo|P|d5fa0085b5dc4fb78d4c7fa9d237f9d9
+Item 209 - Exacerbation de BPCO|Pneumo,Urgences-Anesth-Réa|T|1ebab70352cb4502ae9fa78d5f0703c0
+Item 21 - Définitions relatives au handicap|MPR|P|21979643bce74dce94a914e7c777b96e
+Item 21 - Mesures de l’état de santé des populations|Santé Publique,LCA|T|2e6044b2106c801e8d99e618d544df23
+Item 210 - Fibrose Pulmonaire Idiopathique|Pneumo|P|55b6f0e65a484dc4bb15f512f8c7cb93
+Item 210 - Pneumoconioses|Pneumo|P|85fdb5be7bf8486ab31ad6c4ee081ed7
+Item 210 - Pneumopathie Interstitielle Diffuse|Pneumo|P|762654e98ac541e89f000b4d514ee715
+Item 210 - Pneumopathie Interstitielle Non Spécifiques|Pneumo|P|dfaa91f7c7c24f99ab49cf5d36e563a5
+Item 210 - Pneumopathies d’HyperSensibilité|Pneumo|P|839e7646d99841a7b324f0a045c2517d
+Item 210 - Proliférations tumorales|Pneumo|P|0f339e6b0d6f474985d0a1ea3c703df0
+Item 211 - Manifestations extra-respiratoires de la sarcoïdose|Pneumo,Médecine Interne|T|67c38c6f05bb4bd59b531104541aed5a
+Item 211 - Sarcoïdose|Pneumo,Médecine Interne|T|b49a235592234523ab6d9503cbb03e7e
+Item 211 - Sarcoïdose pulmonaire|Pneumo,Médecine Interne|T|f2a73de6be2942ba80e26739efe8d592
+Item 212 - Hémogramme|Hémato|T|19d04625775b4e59b328d1a5a73a8828
+Item 213 - Anémie|Hémato,Médecine Interne|T|ffa89f7347b54f6f9add5e0d864061de
+Item 213 - Anémie de l’enfant|Hémato,Médecine Interne,Pédiatrie|T|1d8044b2106c804e87bfe42018ed62e0
+Item 213 - Anémies macrocytaires|Hémato,Médecine Interne|T|94b011efaf6547f28e7dcb4df061a87f
+Item 213 - Anémies microcytaires|Hémato,Médecine Interne|T|dbff65e73bbc47c9aa33e613c8450601
+Item 213 - Anémies normocytaires arégénératives|Hémato,Médecine Interne|T|fd4364fda90d478c8d48a5a54fab8306
+Item 213 - Anémies normocytaires régénératives|Hémato,Médecine Interne|T|dd2686dbdc5a4e0bab7ed7e4220a4c71
+Item 213 - Drépanocytose|Hémato,Médecine Interne,Pédiatrie|T|78536e25ff824980a214ca0930cd01f7
+Item 214 - Thrombopénie|Hémato,Médecine Interne,Urgences-Anesth-Réa|T|e76bb7f55da5452fb8079036c72abe03
+Item 214 - Thrombopénie de l’enfant|Hémato,Médecine Interne,Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c80cdbb0ccd1f10a7edc3
+Item 215 - Purpura fulminans|Infectio,Hémato,Dermato,Médecine Interne,Urgences-Anesth-Réa|T|2ee044b2106c809d822affcaa813c151
+Item 215 - Purpuras|Infectio,Hémato,Dermato,Médecine Interne,Urgences-Anesth-Réa|T|b343ecc313444d678ff2eb8c423c5a17
+Item 216 - Hémostase|Hémato|T|43751f740b3348198fb3e73bffc4a237
+Item 216 - Syndrome hémorragique d’origine hématologique|Hémato|T|1b3044b2106c8018a695feb1895219bf
+Item 217 - Syndrome mononucléosique|Infectio,Hémato,Médecine Interne|T|c07eaf4535cf47db904881d0006646ce
+Item 218 - Eosinophilie|Infectio,Hémato,Médecine Interne|T|e75f96bfb27740dc8097344b8743ea21
+Item 219 - Carence martiale|HGE,Hémato,Médecine Interne|T|5cbd8f53fb6545b3a4f762306cfc1d3a
+Item 219 - Carence martiale de l’enfant|Hémato,Pédiatrie,HGE|T|1d8044b2106c807a81a3e972c0e7e87f
+Item 219 - Hémochromatose|HGE,Hémato,Médecine Interne|T|20998ef138374917a3b566a50b52979a
+Item 219 - Pathologies du fer|HGE,Hémato,Médecine Interne|T|d537bd4dba0542f09d9976d16370260d
+Item 219 - Surcharge en fer|HGE,Hémato,Médecine Interne|T|ad12a14c424448b6b0a83d77efe8d746
+Item 22 - Maladies rares|Médecine Interne|T|bf0db2cc06684b2cb3f79291c702e1fe
+Item 220 - Adénopathies superficielles|Infectio,Hémato,Médecine Interne|T|5dbb25b6e6c84e4aa717339b26128692
+Item 221 - Athérosclérose|Cardio|T|1e828439cccc4901bc64588ec3a42caa
+Item 222 - Facteurs de risque cardio-vasculaires|Cardio|T|ae73a5166c2e40dd871227fdd80ffef7
+Item 223 - Dyslipidémies primitives|Cardio,Endoc|T|4f85d5c1ab4d43339d1a86bef434dfd4
+Item 223 - Dyslipidémies secondaires|Cardio,Endoc|T|a94011f943ae4e2e81cc5ee85db41a22
+Item 224 - HTA de l’enfant|Cardio,Pédiatrie|T|1d8044b2106c8040a58eede4d0631fbc
+Item 224 - HTA essentielle|Cardio,Néphro,Endoc|T|867a70ef2990481aa45b2e76b90f7f9a
+Item 224 - HTA maligne|Cardio,Urgences-Anesth-Réa|T|2ee044b2106c80ac93f2d8537910a7cd
+Item 224 - HTA secondaire|Cardio,Néphro,Endoc|T|41301f2063584c7a96f0d3bab1d28f12
+Item 224 - Urgence hypertensive|Cardio,Urgences-Anesth-Réa|T|2ee044b2106c80db8258ecacd6c3713e
+Item 225 - Anévrisme de l’Aorte Abdominale|Cardio|T|1ed815ebe0f5481598ae69558c6fc195
+Item 225 - Artériopathie ischémique|Cardio|T|6807ed99ad794a60b7b999fd512b3214
+Item 225 - Artériopathie Oblitérante des Membres Inférieurs|Cardio|T|c2c89d95c9364829a790a2a033f37181
+Item 225 - Ischémie Aiguë des Membres Inférieurs|Cardio|T|2cff97434e3447bb8fa15ad13d9aa329
+Item 225 - Ischémie mésentérique|Cardio,HGE|T|af51013fad334eceb460537763236558
+Item 226 - Embolie Pulmonaire|Cardio,Pneumo,Hémato,Urgences-Anesth-Réa|T|99a704022b174356b4b1083383c9ae5f
+Item 226 - Thrombose Veineuse Profonde|Cardio,Pneumo,Hémato,Urgences-Anesth-Réa|T|3415e5c5306e4fdaa20507df1b7a89e4
+Item 227 - Insuffisance veineuse chronique|Cardio|T|978f9ab44bb84961b314a7cff7082540
+Item 228 - Angiodermite nécrotique|Dermato|T|f9ce8045bef44914ba5b194bb20e460b
+Item 228 - Nécrobiose lipoïdique (Maladie d’Oppenheim-Urbach)|Dermato|T|8c338e1aaa2a4d40b184ee7283dc83e2
+Item 228 - Pied diabétique et mal perforant plantaire|Dermato,Endoc|T|157b3b37b7ba48b8b6293667d309a999
+Item 228 - Pyoderma gangrenosum|Dermato|T|8d841feebe2e4c31b29078d76410ee14
+Item 228 - Ulcère artériel des membres inférieurs|Dermato,Cardio|T|b47ef801d75a4cb79de649db3880ebd9
+Item 228 - Ulcère de jambe|Dermato,Cardio|T|41f5f6a085bb497a80306c75294bc6c8
+Item 228 - Ulcère veineux des membres inférieurs|Dermato,Cardio|T|9e447025c41a463d9a2ea2d2d2b9fe79
+Item 229 - Surveillance et complications des abords veineux|Urgences-Anesth-Réa|T|2ee044b2106c807c9acec41f764bb88e
+Item 23 - 1er Trimestre|Gynéco|T|1fca1d1d839e44c5969955a6971463ea
+Item 23 - 2e Trimestre|Gynéco|T|7aac830c37c64210b9e42d8c47589cce
+Item 23 - 3e Trimestre|Gynéco|T|e753c3b8e9a047b4bd9adb8b30e8e3be
+Item 23 - Grossesse normale|Gynéco|T|63c09d75d57d477e88d21a72f14832c0
+Item 230 - Dissection aortique|Cardio|T|de8c529f44f842b0a9ca31de4ca4b0b8
+Item 230 - Douleur thoracique aiguë|Cardio,Pneumo|T|e14ca9f0e9fb4230916e27b82e5cec0b
+Item 231 - Lecture ECG|Cardio|T|446d481574e940259f10d010fa231c7a
+Item 231 - Pathologies ECG|Cardio|T|196044b2106c80f3a5fdd8d0781ac5c8
+Item 232 - Fibrillation atriale|Cardio|T|8e1da249f7084fbca46c676e41145b5b
+Item 232 - Flutter auriculaire|Cardio|T|e904a008ba09487e9072d38f13e53d00
+Item 232 - Tachycardie atriale focale|Cardio|T|3d240c876b64401eafe887a4ed1d579b
+Item 232 - Tachycardie jonctionnelle par réentrée atrio-ventriculaire|Cardio|T|701ff44fac3b49c49b80eee3c5e80b0e
+Item 232 - Tachycardie jonctionnelle par réentrée intra-nodale|Cardio|T|7772aae82c574a438de17cc3588ebcde
+Item 232 - Troubles du rythme supraventriculaire|Cardio|T|73468556abac4f37b54049119fed81c1
+Item 233 - Insuffisance aortique|Cardio|T|6a0603a6ba074e2589d79061ec800113
+Item 233 - Insuffisance mitrale|Cardio|T|9acd767b15c1444b806a99236496cca6
+Item 233 - Rétrécissement aortique|Cardio|T|0a5c570621f543a2a5584e4b63a22ba8
+Item 233 - Rétrécissement mitral|Cardio|T|7151d4a9a4734c87993377a5151815cd
+Item 233 - Valvulopathies|Cardio|T|2bee90569c224ef09f90f32411630dfc
+Item 234 - Insuffisance cardiaque|Cardio|P|1eb72d3309b54ef1adfb705c9a0b1ceb
+Item 234 - Insuffisance cardiaque aiguë|Cardio,Urgences-Anesth-Réa|T|8830a178dcdb4a0491c9e3e9e00f9952
+Item 235 - Myocardite|Cardio|T|eaf890b2f9924e35af9108578db6a676
+Item 235 - Péricardite aiguë|Cardio|T|c143c71a2cb6445b93c0c65f440925af
+Item 236 - Bloc Atrio-Ventriculaire|Cardio|T|32cf9200778e44eaa9b2453aa24a0cc3
+Item 236 - Blocs de branche|Cardio|T|eb1784c060a24b7f84f7b6ede92c5367
+Item 236 - Dysfonction sinusale|Cardio|T|51706bf9b7234edb95b62d00ef85768c
+Item 236 - Troubles de la conduction intracardiaque|Cardio|T|ad901aeeaeeb46d6ba16e62ef1056005
+Item 237 - Extrasystoles ventriculaires et supraventriculaires|Cardio|T|d31ca0754d584d15a139e66f40f54eb2
+Item 237 - Fibrillation ventriculaire|Cardio|T|7c9d2509f8a9455dae12a43bbc5807e0
+Item 237 - Palpitations|Cardio|T|4ce01d6929ac42928ad2888821eaeefe
+Item 237 - Tachycardie ventriculaire|Cardio|T|1d8044b2106c801ca6b9d16fdab52bc7
+Item 238 - Canal Artériel Persistant|Cardio,Pédiatrie|T|1d8044b2106c80c3b0b5ef0725c4966d
+Item 238 - Coarctation aortique|Cardio,Pédiatrie|T|1d8044b2106c80f09ad6deb9bf4e676d
+Item 238 - Communication Inter-Auriculaire|Cardio,Pédiatrie|T|1d8044b2106c8081aaedeac03df97036
+Item 238 - Communication Inter-Ventriculaire|Cardio,Pédiatrie|T|1d8044b2106c8065aa5cfff1a75e9970
+Item 238 - Souffle cardiaque de l’enfant|Cardio,Pédiatrie|T|1d8044b2106c80499d7ec000e65e0724
+Item 238 - Sténose valvulaire pulmonaire|Cardio,Pédiatrie|T|1d8044b2106c8087acc5c8c978890b42
+Item 238 - Transposition des Gros Vaisseaux|Cardio,Pédiatrie|T|1d8044b2106c80dfabccf27d547559fc
+Item 238 - Tétralogie de Fallot|Cardio,Pédiatrie|T|1d8044b2106c80f1ab4ece0f6fdc0a11
+Item 239 - Acrocyanose|Dermato,Rhumato,Médecine Interne|T|117044b2106c801881e2d395132635d2
+Item 239 - Engelures|Dermato,Rhumato,Médecine Interne|T|67684b0522fc41e78b3848378d0eb0fc
+Item 239 - Erythromélalgie et Erythermalgie|Dermato,Rhumato,Médecine Interne|T|117044b2106c8068bb3ad92a59e5ce23
+Item 239 - Ischémies digitales|Dermato,Rhumato,Médecine Interne|T|117044b2106c806fb115fc8814bd56e1
+Item 239 - Sclérodermie|Dermato,Rhumato,Médecine Interne|T|f94cd68087ad4ea0b04d7b0276a0377c
+Item 239 - Syndrome de Raynaud|Dermato,Rhumato,Médecine Interne|T|0ce13917db7e4da69a9681f1db756070
+Item 24 - Fièvre au cours de la grossesse|Gynéco|T|962a80a95a76420b8f83524085880c89
+Item 24 - HTA gravidique|Gynéco,Cardio|T|20a4e459647c49fd95dc4a23bdbd94ac
+Item 24 - Hémorragie génitale au cours de la grossesse|Gynéco|T|5ed76c4380e44998a961964391fba6d5
+Item 24 - Menace d’Accouchement Prématuré|Gynéco|T|c17153cf9524446aaf47c483f6f23407
+Item 240 - Hypoglycémie|Endoc|T|e7c69e1e62634081bc3fec3639b766a9
+Item 240 - Hypoglycémie de l’enfant|Endoc,Pédiatrie|T|1d8044b2106c80cb91e3e028f5dc443d
+Item 241 - Cancers thyroïdiens|Endoc,Cancéro|P|66e5fba3dd844cfd8411963e5dabecf0
+Item 241 - Goitre thyroïdien|Endoc|P|178e622056fc4c2aa47e219427bdc5f5
+Item 241 - Nodules thyroïdiens|Endoc|T|fb9289e8e3f44434a352a1a5457a29b0
+Item 242 - Hyperthyroïdie|Endoc|T|ffb11111374e4c7db7028cf71c5a1929
+Item 242 - Maladie de Basedow|Endoc|T|4ffce212718e46818c9759ac7f9c2238
+Item 242 - Orbitopathie dysthyroïdienne|Ophtalmo,Endoc|T|1d8044b2106c805dbc67cae66831cbcb
+Item 243 - Hypothyroïdie|Endoc|P|75dc324094a3415a8219de7fbd722ca2
+Item 244 - Acromégalie|Endoc|P|3f8a52f2852a4cabbb556874c2c6f6cb
+Item 244 - Adénome hypophysaire|Endoc|T|143b51bb860f4eae99bacdc56aa08e6f
+Item 244 - Hyperprolactinémie|Endoc|P|3c21db3f8a43469c8e51e94ceb8e146e
+Item 244 - Syndrome de Cushing|Endoc|T|621e600132ae474bb5de01ba6b0835ae
+Item 244 - Syndrome d’insuffisance antéhypophysaire|Endoc|P|c409c951329f415fa1c6e7fcb106090d
+Item 244 - Syndrome tumoral hypophysaire|Endoc|T|5ab50f7b169942db812eec2e5c3a68c8
+Item 245 - Insuffisance surrénale aiguë|Endoc,Urgences-Anesth-Réa|T|a5580e164f0345d2a905dbc30ec8e80e
+Item 245 - Insuffisance surrénale chronique|Endoc|T|e134d9ae4c404d0d9c439e54cde3fbeb
+Item 245 - Insuffisance surrénale de l’enfant|Endoc,Pédiatrie|T|1d8044b2106c8058ad4cf6573dfbfc92
+Item 246 - Gynécomastie|Endoc|P|9c7c2af345e749fcbe18038b1e2a3161
+Item 247 - Acidocétose diabétique|Endoc,Urgences-Anesth-Réa|T|9fe6f480478f45059737ae07fd3c2c49
+Item 247 - Acidose lactique|Endoc,Urgences-Anesth-Réa|T|d1d1ab2d3a6b4abc86ce36ffb7386f26
+Item 247 - Autres complications du diabète|Endoc|P|9d036f02740948589b5633cc3e8777c7
+Item 247 - Complications macrovasculaires du diabète|Endoc|P|0f7b2f01b56c4a85804e57908b4e8e6f
+Item 247 - Diabète de type 1|Endoc|T|8471a720043644b9bb833975ba494136
+Item 247 - Diabète de type 2|Endoc|P|bc19e9a8059248dabc72cd98abb9253a
+Item 247 - Diabète insipide|Néphro,Endoc|T|aaaaaa700b7b498cac6274884ad95944
+Item 247 - Diabète sucré de l’enfant|Endoc,Pédiatrie|T|1d8044b2106c807392edf032ff01e9dd
+Item 247 - LADA|Endoc|P|1ef0de1dd79a4da5a6f8159c80c61e5e
+Item 247 - Néphropathies diabétiques|Endoc,Neuro|P|44d786e986f64c54906d013b88376818
+Item 247 - Néphropathies diabétiques|Endoc,Ophtalmo|T|8af67fb1afce44ed900ff64f8e10f39c
+Item 247 - Néphropathies diabétiques|Néphro,Endoc|T|c3eda752afe24171b21d17a4f373c230
+Item 247 - Syndrome hyperosmolaire|Endoc,Urgences-Anesth-Réa|T|54f99f134dcf4d3ca9576d71116c340f
+Item 248 - Prévention primaire par la nutrition|Endoc|P|b64fe55892074f70af7d6b35ed219ec7
+Item 249 - Modifications thérapeutiques du mode de vie|Endoc,MPR|P|0ccabd6c1452445f9c1f7d4c9a555be0
+Item 25 - Grossesse Extra-Utérine|Gynéco|T|877a7d180f3a4dc9b8efaf5224cdfa12
+Item 250 - Dénutrition|Endoc|P|395df67e759f41e9be9d69520b957496
+Item 250 - Dénutrition de l’enfant|Endoc,Pédiatrie|T|1d8044b2106c80e78f94cf964e0dd934
+Item 251 - Amaigrissement|Endoc,Médecine Interne|T|25deb8c8c95b4cfea6eb5b61d28962ee
+Item 251 - Amaigrissement de l’enfant|Endoc,Médecine Interne,Pédiatrie|T|1d8044b2106c8056a8c8e09222dd7c6d
+Item 252 - Troubles nutritionnels|Endoc|P|c9b09c42434a4936b6195219ae601502
+Item 253 - Obésité|Endoc|P|1e35adf4fef64550a118faecfab5d275
+Item 253 - Obésité de l’enfant|Endoc,Pédiatrie|T|1d8044b2106c802681cdd00f01b4e4fc
+Item 254 - Grossesse et nutrition|Endoc,Gynéco|T|5b897c7fca804b428e1b7d91ef3425ac
+Item 255 - Diabète gestationnel|Endoc,Gynéco|T|77cf32c4549341e18cb02bb88cbeeabc
+Item 255 - Diabète pré-gestationnel|Endoc|P|6be6daa4218542188f797a40deb2b47c
+Item 256 - Aptitude au sport|Endoc|P|9fedb48ecef344aca76fdf1b4f0c973c
+Item 257 - Œdèmes de membres inférieurs|Néphro,Cardio,Médecine Interne|T|59839429ed944502a10111a4a504d3ff
+Item 258 - Élévation de la créatininémie|Néphro|T|e418078df2e9400ea470512ac883d353
+Item 259 - Protéinurie de l’enfant|Néphro,Pédiatrie|T|1d8044b2106c80f9be2ada6b4dc877e7
+Item 259 - Protéinurie et syndrome néphrotique|Néphro|T|73ed0ae4c9bd4b298c7d073ef0b669d8
+Item 259 - Syndrome néphrotique idiopathique|Néphro,Pédiatrie|T|1d8044b2106c805ab973e3f606acec1b
+Item 26 - Douleur abdominale aiguë chez la femme enceinte|Gynéco|T|57d97de5930648a589727cf3741e2288
+Item 260 - Hématurie|Uro,Néphro|T|3b043d75b4c74c0b8060e9e1af4b2cc3
+Item 260 - Hématurie de l’enfant|Néphro,Pédiatrie,Uro|T|1d8044b2106c80029703e2e0cee1dd18
+Item 261 - Glomérulonéphrite Aiguë Post-Infectieuse|Néphro|T|faab628f09f6438e8da72073eb20312a
+Item 261 - Glomérulonéphrite membrano-proliférative|Néphro|T|e35783bc8819483dbb57452d7efd04e3
+Item 261 - Glomérulonéphrite à dépôts mésangiaux d’IgA|Néphro|T|e3a15b69d5a74e48adbd8bb244111566
+Item 261 - Glomérulopathie Extra-Membraneuse|Néphro|T|bcaba8ef211c4c2296ef9e0b7128f31b
+Item 261 - GNRP pauci-immune|Néphro|T|8e2d307d0fbc41f89966ab9445f3162b
+Item 261 - GNRP à dépôts de complexes immun|Néphro|T|ce1e9ce89f914a13898e1ff877c911b1
+Item 261 - Hyalinose segmentaire et focale|Néphro|T|22ec734c25654254b3dadd41e906d652
+Item 261 - Maladie de Goodpasture|Néphro|T|cea7fbb88a614f26b5e35bda3ff1caf7
+Item 261 - Néphropathies glomérulaires|Néphro|T|cc8800a8f69e4a2087c69dfb8c92d711
+Item 261 - Ponction-Biopsie Rénale|Néphro|T|ba0d876b916944609545dcb91fcb7889
+Item 261 - Syndrome néphrotique à lésions glomérulaires minimes|Néphro|T|61ed22356d194888aa2e3144b4b22c59
+Item 261 - Syndromes néphrologiques|Néphro|T|1022fe1c3464401c9330114e3d1905a0
+Item 262 - Néphropathies interstitielles|Néphro|T|3cb6b4a237e745f395e156570984b68f
+Item 263 - Néphropathies vasculaires aiguë|Néphro|T|8c343005cad74df0a05ed7bbd213dbb7
+Item 263 - Néphropathies vasculaires chronique|Néphro|T|05736b721fc747af96f5c37e43afa0a7
+Item 264 - Dialyse|Néphro|T|2190396ec00c432f92df41bdbe6ad146
+Item 264 - Insuffisance Rénale Chronique|Néphro|T|8820728f447046c2b6794bf87ebadb23
+Item 264 - Insuffisance rénale de l’enfant|Néphro,Pédiatrie|T|1d8044b2106c80c49efdc8611fdfb1f0
+Item 265 - Lithiase urinaire|Uro,Néphro|T|47e99b93451f4154836fa1f2473aad41
+Item 266 - Polykystose rénale|Néphro|T|c77f8c6d5a1e4e56b5606ceeadf0f0ff
+Item 267 - Acidose métabolique|Néphro,Pneumo,Urgences-Anesth-Réa|T|d0687bb7ad344a6da77026797f1c45a4
+Item 267 - Acidose respiratoire|Néphro,Pneumo,Urgences-Anesth-Réa|T|06843b9e0879467e8affdea932a255d5
+Item 267 - Alcalose métabolique|Néphro,Pneumo,Urgences-Anesth-Réa|T|288c6c169e5a4dd98de7c2df54a7f337
+Item 267 - Alcalose respiratoire|Néphro,Pneumo,Urgences-Anesth-Réa|T|941f9df13b42440798f14123e885eaa8
+Item 267 - Anomalies du bilan hydro-sodé|Néphro,Endoc,Urgences-Anesth-Réa|T|a0b24115db974232a853ee9ae456a369
+Item 267 - Anomalies du bilan potassique|Néphro,Endoc,Urgences-Anesth-Réa|T|dfb75514624c4933bc02bf01f409b0bf
+Item 267 - Déshydratation Extra-cellulaire|Néphro,Endoc,Urgences-Anesth-Réa|T|c698988b532e42f48a22e815c24e1d0f
+Item 267 - Déshydratation Intra-cellulaire|Néphro,Endoc,Urgences-Anesth-Réa|T|173396493045494a8dfae0b352b96fe6
+Item 267 - Hyperhydratation Extra-cellulaire|Néphro,Endoc,Urgences-Anesth-Réa|T|9995286a801d4eb5aa3c86a64df2dda6
+Item 267 - Hyperhydratation Intra-cellulaire|Néphro,Endoc,Urgences-Anesth-Réa|T|e28263ab158f404d9c4192fc84c6406a
+Item 267 - Hyperkaliémie|Néphro,Endoc,Urgences-Anesth-Réa|T|d9e47d763d74424f917b8c54888a0f2b
+Item 267 - Hypocalcémie|Néphro,Endoc,Urgences-Anesth-Réa|T|152621cccea94f879d78f2422afd7de4
+Item 267 - Hypokaliémie|Néphro,Endoc,Urgences-Anesth-Réa|T|73419d5f5c234c91b118ad17f2691e53
+Item 267 - Syndrome de Sécrétion Inappropriée d’ADH|Néphro,Endoc,Urgences-Anesth-Réa|T|998493cf81eb4948b0e88949e0485556
+Item 267 - Troubles de l’équilibre acido-basique|Néphro,Pneumo,Endoc,Urgences-Anesth-Réa|T|f25293b07b6d409faf03e81fab5136bd
+Item 268 - Hypercalcémie|Néphro,Endoc,Rhumato,Médecine Interne,Urgences-Anesth-Réa|T|bbdc25fea030497786773498d911aacb
+Item 268 - Hyperparathyroïdie|Endoc|P|3ce1abad679940d58e074801cefa465e
+Item 269 - Douleurs abdominales aiguës de l’adulte|HGE,Urgences-Anesth-Réa|T|514942f6e6ab4a8ba03224a0c2fbdc0a
+Item 269 - Douleurs abdominales aiguës de l’enfant|HGE,Pédiatrie,Urgences-Anesth-Réa|T|1cb044b2106c8071bc20d5d8d7abd262
+Item 269 - Invagination intestinale aiguë|HGE,Urgences-Anesth-Réa,Ped|T|bee7e06a04954e3a9a0f1c5c5ab0cef1
+Item 27 - Addictologie et grossesse|Gynéco|T|3a7c7addd27043fa92d60fae13e08329
+Item 27 - Allo-immunisation anti-érythrocytaire|Gynéco|T|f239dee407e94505af31982a52391124
+Item 27 - Infections bactériennes pendant la grossesse|Infectio,Gynéco|T|7514c65c57254bb0a63c25e187215a32
+Item 27 - Infections materno-fœtales|Infectio,Gynéco|T|d4e9add486da4e0e9a0239b85fa8d47a
+Item 27 - Infections virales et parasitaires pendant la grossesse|Infectio,Gynéco|T|f28e3642e7214e168587afc2f285cbea
+Item 27 - Irradiation et grossesse|Gynéco|T|4fe6e00c275c48af9047d46233daba4c
+Item 27 - Médicaments et grossesse|Gynéco|T|8cc2f5280a66424ca822425fb8515e6f
+Item 270 - Douleurs lombaires aiguës|Rhumato|P|c7a740d654424898a4b4310740b1be78
+Item 271 - Hernie hiatale diaphragmatique|HGE|T|1b153fa70ec44d6abef98d5c4329bb9b
+Item 271 - Reflux Gastro-Œsophagien|HGE|T|780d6bcb58304a4f8b73d555f64200e6
+Item 271 - Reflux Gastro-Œsophagien de l’enfant|HGE,Pédiatrie|T|1d8044b2106c80a39745e6f83836b053
+Item 271 - Œsophage de Barrett|HGE|T|7cc34a92a8c849e0b39e599cc9a049b6
+Item 271 - Œsophagite|HGE|T|a9c7bb7d00a749c5a0e85339b58f065c
+Item 272 - Dyspepsie|HGE|T|f4f07c7959f844369563826cf68ac7ac
+Item 272 - Gastrite|HGE|T|587208fee52e4eb79c83f6fbe40f6578
+Item 272 - Ulcère gastrique et duodénal|HGE|T|28bf52469f2249bfb4ba330392912880
+Item 273 - Achalasie|HGE,ORL|T|0dcc11e0a32b4e45a84fce8a728ea355
+Item 273 - Dysphagie|HGE,ORL|T|55a1bf9f228e486e9645f37564943c35
+Item 274 - Sténose du pylore|HGE,Pédiatrie|T|1d8044b2106c80489cbde1e5b0fa97e4
+Item 274 - Vomissements|HGE|T|952593052ab24a13a986bffdecc96e54
+Item 274 - Vomissements de l’enfant|HGE,Pédiatrie|T|1d8044b2106c8020add4f4431f0177d1
+Item 275 - Splénomégalie|Hémato,Médecine Interne|T|89766be33db54fb1a729b153cbd3f650
+Item 276 - Hépatomégalie et masse abdominale|HGE|T|4061f421cfec472d9963bdf917f70384
+Item 276 - Maladie hépatique alcoolique|HGE|T|7834ad0e6df34458b0b617701c59d31a
+Item 276 - Stéatose hépatique|HGE|T|47829596e12249efad5906878e8360d9
+Item 277 - Angiocholite|HGE|T|a5a901b79f8c47e6997b6670d37db098
+Item 277 - Cholécystite aiguë|HGE|T|d0a216c4c80b49fd82d52037a25c0150
+Item 277 - Lithiase biliaire|HGE|T|3b8ec7ec4ede41a4a4b716061c07bcd8
+Item 278 - Ictère|HGE|T|f6a1bfce2c5a4e37a3381ee497e99d6e
+Item 278 - Ictère néonatal|HGE,Pédiatrie|T|1d8044b2106c8039aabff2ce19edcddf
+Item 278 - Insuffisance hépatique|HGE,Urgences-Anesth-Réa|T|2ee044b2106c805b891be9e60312ce70
+Item 279 - Cirrhose|HGE|T|350b20f46a8642d099d593bab9158caa
+Item 279 - Décompensation œdémato-ascitique|HGE,Urgences-Anesth-Réa|T|2ee044b2106c80139516ecb1794203ba
+Item 279 - Encéphalopathie hépatique|HGE,Urgences-Anesth-Réa|T|13bfb3700cbc464387f03e7a782ad385
+Item 279 - Varices œsophagiennes|HGE,Urgences-Anesth-Réa|T|5e2ec9733796408ba845a517deb2e03c
+Item 28 - Infection urinaire pendant la grossesse|Gynéco|T|a499898b54184216a8a5d8c2b9de899e
+Item 280 - Ascite|HGE,Endoc|E|6deda71bcb0b4cc6847b7dc40e98c7b4
+Item 281 - Pancréatite chronique|HGE|T|d2016886668e4e0dbdd5cdf0a34c5272
+Item 282 - Maladie de Crohn|HGE|T|921d9c82547b460f80e5120d4ef451dd
+Item 282 - Maladies Inflammatoires Chroniques de l’Intestin|HGE|T|1af34b54b2de4d2da4f9f0da89adf9e8
+Item 282 - RectoColite Hémorragique|HGE|T|c0879e07b06c4aefa6dd5f26ff75de4a
+Item 283 - Constipation de l’adulte|HGE|T|3d8ec26da85d451883d4e01ad40ca56e
+Item 283 - Constipation de l’enfant|HGE,Pédiatrie|T|1d5044b2106c808283c4c72571cad4be
+Item 284 - Colopathie fonctionnelle|HGE|T|b6dcd9a96e56407d9c9a5ffc6d2604fc
+Item 285 - Diarrhée chronique|HGE|T|5b50c7430b804dc0ac29f8931cd48f43
+Item 285 - Diarrhée chronique de l’enfant|HGE,Pédiatrie|T|1d8044b2106c80f8b51ace72c4850ac1
+Item 285 - Maladie cœliaque|HGE|T|cee6c71817a8449f9b6e3f165d53b894
+Item 286 - Diarrhée aiguë|HGE|T|e434cf9a4b614705a25ca80f190aead6
+Item 286 - Diarrhée aiguë de l’enfant|HGE,Pédiatrie|T|1d8044b2106c80458aa0cd815fe948fe
+Item 287 - Diverticulite aiguë du sigmoïde|HGE|T|be08e44bbca740708feeebc73ac425d2
+Item 288 - Pathologie hémorroïdaire|HGE|T|b0eee6914b684ae28fcef7829272f3b9
+Item 289 - Hernie pariétale de l’adulte|HGE|T|f9d6f2961ae54b96ba5bc850e50d4a16
+Item 289 - Hernie pariétale de l’enfant|HGE,Pédiatrie|T|1d8044b2106c80d9be47e6306dc412b5
+Item 29 - Risques professionnels pour la maternité|Gynéco|T|7f54dd92a82c4e1e87de809633959ba9
+Item 290 - Dépistage des cancers|Cancéro|P|5f04d134dd704e5aa118ec745022f188
+Item 290 - Epidémiologie des cancers|Cancéro|P|680f01cb722343cc81c7a9685c2e09f5
+Item 290 - Facteurs de risque des cancers|Cancéro|P|87a9262765874034adae76ab26daa414
+Item 291 - Cancérogénèse|Cancéro|P|d9bd0b77bccc45cf975935019f54350a
+Item 291 - Génétique moléculaire|Cancéro|P|73c9070c4b2b4e0fa49b2638cdeee52b
+Item 291 - Oncogénétique|Cancéro|P|72bb9cf9c0ef4bf685e062e3e3a4cddd
+Item 292 - Diagnostic des cancers|Cancéro|P|24839723d7ea4aa9a9ef0117a5a0c3c7
+Item 293 - Anatomopathologie cancéreuse|Cancéro|P|cbd65300ece14ee1b1273f20bfec5df2
+Item 294 - Décision thérapeutique et soins de support|Cancéro,Thérapeutique,Douleurs et soins palliatifs|T|7ecedb2a826f4fe7a057da3528d55fd0
+Item 294 - Traitements locaux des cancers|Cancéro,Thérapeutique,Douleurs et soins palliatifs|T|4556ab1a40244f948d38fe9b13072147
+Item 294 - Traitements systémiques des cancers|Cancéro,Thérapeutique,Douleurs et soins palliatifs|T|1657b3f7ccbc459bb2ff56e7416f505a
+Item 295 - Prise en charge d’un patient cancéreux|Cancéro,Douleurs et soins palliatifs|T|3941d1564d2242be9a82539d37021cfd
+Item 296 - Agranulocytose médicamenteuse|Hémato,Cancéro,Urgences-Anesth-Réa|T|79283ddb3002440e8e85d63f273078b5
+Item 297 - Cancers pédiatriques|Cancéro,Pédiatrie|T|a9a3c2a06b5f49f1844636ceae086d64
+Item 297 - Neuroblastome|Cancéro,Pédiatrie|T|29a044b2106c8045a4e4e79b8299c3e3
+Item 297 - Néphroblastome de l’enfant|Cancéro,Pédiatrie|T|29a044b2106c8077bcfcfd170139cb16
+Item 297 - Tumeurs cérébrales de l’enfant|Cancéro,Pédiatrie|T|29a044b2106c80d1915ad72e1d0805a0
+Item 298 - Cancer de la cavité buccale|Cancéro,ORL,CMF|T|f609d69c7c1a4e9b9bcb8e6c708262ff
+Item 298 - Cancer de l’hypopharynx|Cancéro,ORL,CMF|T|2c7f9252831543379487a02eb7bb3dae
+Item 298 - Cancer de l’oropharynx|Cancéro,ORL,CMF|T|16b0e1a70308473db7b2f15e170a4402
+Item 298 - Cancer des fosses nasales et des sinus|Cancéro,ORL,CMF|T|bee86812f0374f2eb8d2b09012ea40c5
+Item 298 - Cancer du larynx|Cancéro,ORL,CMF|T|a2502d41df12413da6596a6a2590003c
+Item 298 - Cancer du rhinopharynx|Cancéro,ORL,CMF|T|68e23075af854e1895d4d8203e9c6600
+Item 298 - Tumeurs des voies aéro-digestives supérieures|Cancéro,ORL,CMF|T|a394ee47347447d0910aaaedcaa67863
+Item 299 - Gliomes|Cancéro,Neuro|T|b1702158e92f451c9c1787dba1049f0d
+Item 299 - Hypertension intracrânienne|Ophtalmo,Neuro|T|2c1044b2106c80fe86d1d6d5b7e21e1b
+Item 299 - Méningiomes|Cancéro,Neuro|T|41b54c919f204b70acdcd79026ded30a
+Item 299 - Métastases cérébrales|Cancéro,Neuro|T|f62383d7b62b444e88c24c1ad71055ce
+Item 299 - Tumeurs intracrâniennes|Cancéro,Neuro|E|733c97acbd5b4531a3ea1a63cd3e38f1
+Item 3 - Evidence Based Medecine|Santé Publique,LCA|P|2e6044b2106c8041ab4bdd2c92081a97
+Item 30 - Prématurité|Gynéco,Pédiatrie|T|93b6ce47c22f4a119a94ecec2bbe8088
+Item 30 - Retard de Croissance Intra-Utérin|Gynéco,Pédiatrie|T|e28277ca06bb478c90e307fd2a625d25
+Item 300 - Cancer de l’endomètre|Cancéro,Gynéco|T|517d2e81595940669f303698d6b01ae9
+Item 300 - Cancer du col de l’utérus|Cancéro,Gynéco|T|e32cb5729d004293be2e0ab4d06ef3fa
+Item 300 - Lésions bénignes du col utérin|Cancéro,Gynéco|T|53cfd6fb8ce245bebde448c4fff9782e
+Item 301 - Cancer colo-rectal|HGE,Cancéro|T|9cf92abe52e04e21a33bb7a2edda52bd
+Item 301 - Polypes colo-rectaux|HGE,Cancéro|T|3af68e3f89fe4b729568b29141dfc324
+Item 301 - Polypose colique Adénomateuse Familiale|HGE,Cancéro|T|75b13f244b3644a288caae85a31b76cd
+Item 301 - Syndrome de Lynch|HGE,Cancéro|T|c62b120870204e44acfbd5d6241296c0
+Item 302 - Cancer de la peau|Cancéro,Dermato|T|4ee69d685886471dbbc6daf705a45450
+Item 302 - Cancer de l’anus|HGE,Cancéro|T|07b9c6aab2cf4022856cce09b6e0ba27
+Item 302 - Carcinome basocellulaire|Cancéro,Dermato|T|923a4caa857c47c69417cac24e8d0c42
+Item 302 - Carcinome épidermoïde|Cancéro,Dermato|T|2cbc347b0bd7409691f1f2cd91308493
+Item 302 - Kératose actinique|Cancéro,Dermato|T|374bcf790ba24c55985f92c9c6d6ff60
+Item 302 - Mélanome|Cancéro,Dermato|T|5e373ec9096d43ba9ea31ec298d22554
+Item 302 - Naevus|Cancéro,Dermato|T|6f55c2e565a245bfa15b13af210ee2cf
+Item 303 - Tumeurs de l’estomac|HGE,Cancéro|T|4a7e0d8e349442f3be13ae7de9233aa2
+Item 304 - Tumeurs hépatiques malignes|HGE,Cancéro|T|1c196990783c4cb0a8e1d91bbff7d52c
+Item 304 - Tumeurs hépatiques primitives bénignes|HGE,Cancéro|T|974d623a09ae4e91a628bcca5bca0a56
+Item 305 - Tumeur de l’œsophage|HGE,Cancéro|T|985beb6adcc0496c92e6f089d681a8ee
+Item 306 - Tumeur de l’ovaire|Endoc,Cancéro,Gynéco|T|d76f612d38014cff8d3e61222a8707e4
+Item 307 - Tumeurs osseuses primitives bénignes|Cancéro,Ortho,Rhumato|T|c1951d8a91e842f980bea0a149f310dd
+Item 307 - Tumeurs osseuses primitives malignes|Cancéro,Ortho,Rhumato|T|a05edf9567534921bfd0ca39947a1159
+Item 307 - Tumeurs osseuses secondaires|Cancéro,Ortho,Rhumato|T|bffa6c6d43574ace9ac8226a4215d99d
+Item 308 - Tumeur bénignes du pancréas|HGE,Cancéro,Endoc|T|4e284a4f622943fe98f94f0ac28c9d84
+Item 308 - Tumeur du pancréas|HGE,Cancéro,Endoc|T|9d13d9912ec647bb874268b1ecbc271b
+Item 308 - Tumeur endocrines du pancréas|HGE,Cancéro,Endoc|T|98a5945eac54435aa31c5ece20909f96
+Item 308 - Tumeur exocrines du pancréas|HGE,Cancéro,Endoc|T|10e1e2d4e8b9471baee54a177aea4162
+Item 309 - Tumeurs du poumon|Pneumo,Cancéro|T|ce9e694b52764afe83b07222b536a340
+Item 31 - Accouchement, délivrance et suites de couches normales|Gynéco|T|0f7f72347f2747e2ac69d601a8ee2204
+Item 310 - Tumeurs de la prostate|Uro,Cancéro|P|495acfee59ca42b5bc7bdfe8360f947a
+Item 311 - Tumeurs rénales|Uro,Cancéro|T|953731c24b974f67a556c4aad528df8e
+Item 312 - Tumeurs du sein|Cancéro,Gynéco|T|6dd09b65df1f49178bd8ea2a5dc5406f
+Item 313 - Tumeurs testiculaires|Uro,Cancéro|T|94b109d2423c4b059e47ca474a943a41
+Item 314 - Tumeurs vésicales|Uro,Cancéro|T|aa1ed46dee2f4e9099c858072538d590
+Item 315 - Leucémies aiguës|Hémato,Cancéro|T|eb0cda912faf4f4e96097ba5a83cf7e0
+Item 315 - Leucémies Aiguës Lymphoblastique|Hémato,Cancéro|T|bcd12b59f5b84c4d98d806d4cf57b7ed
+Item 315 - Leucémies Aiguës Myéloblastiques|Hémato,Cancéro|T|757d36ac7b3b41a789c6cd3b85250957
+Item 315 - Leucémies aiguës pédiatriques|Hémato,Cancéro,Pédiatrie|T|1d8044b2106c80bbb934e6acda60a417
+Item 316 - Syndromes myélodysplasiques|Hémato,Cancéro|T|ba69b9f032de4d79a4847a0e07c064bd
+Item 317 - Leucémies Myéloïdes Chroniques|Hémato,Cancéro|T|f6bbdbf9f3234e21bae5ffaf30487e60
+Item 317 - Maladie de Vaquez|Hémato,Cancéro|T|b6d3b7cd9dd245c9abb08605d967a5c3
+Item 317 - Syndromes myéloprolifératifs|Hémato,Cancéro|T|646ec0eaf271454594798b63692b95bb
+Item 317 - Thrombocytémie essentielle|Hémato,Cancéro|T|d8f99c7f750d4f5f85df01e879cce265
+Item 318 - Leucémies Lymphoïdes Chroniques|Hémato,Cancéro|T|a68c62666d9d4fd0af9c8e0f389a510f
+Item 319 - Lymphome cutané primaire|Hémato,Cancéro,Dermato|T|b7eddde0540e472181c72c6f6178f901
+Item 319 - Lymphome de Hodgkin|Hémato,Cancéro|T|efebfd48bd58496fbae5fea755c41c66
+Item 319 - Lymphome non hodgkinien|Hémato,Cancéro|T|bea5658ca825494da8718f5b845a28af
+Item 319 - Lymphomes malins|Hémato,Cancéro|T|bb19fa16aa204e18951ad3f3edad52d2
+Item 32 - Evaluation et soins du nouveau-né à terme|Pédiatrie|T|1d8044b2106c80d983d2f233a6963de6
+Item 320 - Atteinte rénale du myélome|Néphro,Cancéro|T|75eda807c75c41338bb5a0fbb3eb06b7
+Item 320 - Myélome multiple des os|Hémato,Cancéro,Rhumato|T|16d95841bd74450188112e2e6b34bf2f
+Item 321 - Bon usage du médicament en et hors AMM|Thérapeutique|T|2ee044b2106c8011bd4befad63fbb802
+Item 321 - Etapes et acteurs de la prise en charge|Thérapeutique|T|354044b2106c800ab7a0f99a3f59f6e0
+Item 321 - Identifier les médicaments essentiels|Thérapeutique|T|354044b2106c8035aa93de44976138a5
+Item 321 - Prise en charge des effets indésirables|Thérapeutique|T|354044b2106c80aabab5c29e08ee5b45
+Item 321 - Suivi Thérapeutique Pharmacologique|Thérapeutique|T|354044b2106c8042a006ed1aa737c811
+Item 322 - Argumenter une décision médicale partagée|Thérapeutique|T|2ee044b2106c8072bfdfcaa0cb371592
+Item 322 - Décision thérapeutique personnalisée chez le sujet obèse|Thérapeutique,Endoc|T|2ee044b2106c805db031cf1b414ed1bb
+Item 322 - Décision thérapeutique personnalisée chez le sujet âgé|Gériatrie,Thérapeutique|T|f72a92306ef947af9537356a027d531a
+Item 322 - Décision thérapeutique personnalisée chez l’enfant|Thérapeutique,Pédiatrie|T|2ee044b2106c8037a1acfcff3e6da0bf
+Item 322 - Décision thérapeutique personnalisée chez l’insuffisant hépatique|Thérapeutique,HGE|T|2ee044b2106c8035b3c4f80281f19d0b
+Item 322 - Décision thérapeutique personnalisée chez l’insuffisant rénal|Thérapeutique,Néphro|T|2ee044b2106c8034bf15ff9b26b43f31
+Item 322 - Décision thérapeutique personnalisée pendant la grossesse et l’allaitement|Thérapeutique,Gynéco|T|2ee044b2106c80098627d5e31122ef7c
+Item 322 - Dépendance et sevrage médicamenteux|Thérapeutique|T|2ee044b2106c8053a453d3fb62b88488
+Item 322 - Iatrogénie en néphrologie|Néphro,Thérapeutique|T|43c73879bef94c81b1552b05df0ed158
+Item 322 - Interactions médicamenteuses|Thérapeutique|T|2ee044b2106c80c7a27ffefd6aaab161
+Item 322 - Intervention programmée chez un patient sous traitement|Thérapeutique|T|2ee044b2106c806a815fe7889b9f600f
+Item 322 - Intérêts de la pharmacogénétique à la prescription médicamenteuse personnalisée|Thérapeutique|T|2ee044b2106c80bb9b12d0ea35d342b6
+Item 323 - Analyse critique et niveaux de preuve|Santé Publique,LCA|P|2e6044b2106c80c08c6bf5cb016cb957
+Item 324 - Automédication|Thérapeutique|T|2ee044b2106c80a1a418eac8c3baf17c
+Item 324 - Education thérapeutique|Thérapeutique|T|2ee044b2106c80c58604df83f8fca3ab
+Item 324 - Observance|Thérapeutique|T|2ee044b2106c804baa91c2d7004199a3
+Item 325 - Risques liés aux médicaments|Santé Publique,Thérapeutique|T|2e6044b2106c8081ba3fe8a87187cad4
+Item 326 - Développement professionnel continu sur le médicament|Thérapeutique|T|2ee044b2106c8025beb8e3e14482880a
+Item 326 - Elaboration des recommandations professionnelles|Thérapeutique|T|2ee044b2106c80298fc9e522cd0b627d
+Item 326 - Indices de bénéfices cliniques|Thérapeutique|T|2ee044b2106c8077967be99220db58b8
+Item 326 - Modalités de prescription et de délivrance|Thérapeutique|T|2ee044b2106c808687c1fa41f6e55a1d
+Item 326 - Professionnels impliqués dans la prescription thérapeutique|Thérapeutique|T|2ee044b2106c8000b426da4738b2557f
+Item 326 - Rapport bénéfice/risque|Thérapeutique|T|2ee044b2106c8004a128c440c3de3de9
+Item 326 - Régulation la prescription thérapeutique|Thérapeutique|T|2ee044b2106c80e49078f10b6beb787f
+Item 327 - Interventions non-médicamenteuses et thérapies complémentaires|Thérapeutique|T|2ee044b2106c80b483e2eac87187f031
+Item 328 - Cures thermales|MPR,Thérapeutique|T|d1880b220a6a4bcfaa5fb18edaab2a96
+Item 328 - Thérapeutiques non médicamenteuses|MPR,Thérapeutique|T|1175d873971f46dfad5e3056f2df501c
+Item 329 - Transfusion sanguine chez le sujet âgé|Hémato,Gériatrie,Thérapeutique,Urgences-Anesth-Réa|P|9b22a5a0ffb244a2a8bb60bd2768a905
+Item 329 - Transfusion sanguine et produits dérivés du sang|Hémato,Urgences-Anesth-Réa,Thérapeutique|P|81e9aa10ea6643a68ecebe9ee1a3619c
+Item 33 - Allaitement|Gynéco|T|3c288ab14a524bf9be7a26fefb2099ee
+Item 330 - Accident hémorragique sous anticoagulant|Cardio,Hémato,Thérapeutique,Urgences-Anesth-Réa|T|2ee044b2106c8008b04fc1d2067e0dd9
+Item 330 - AINS|Rhumato,Thérapeutique,Douleurs et soins palliatifs|T|9e74c1e12e984ea181fcbfa3a527c9c0
+Item 330 - Antalgiques de palier I|Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c80efa00bffe06968a49f
+Item 330 - Antalgiques de palier II|Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c809582fbc3b2eab2e798
+Item 330 - Antalgiques de palier III|Thérapeutique,Douleurs et soins palliatifs|T|2ee044b2106c80359d06ffc56863dbf2
+Item 330 - Anti-agrégants plaquettaires|Cardio,Thérapeutique|T|39a2832e66c74b8fa35ccca2fe81ccee
+Item 330 - Anti-diabétiques|Thérapeutique,Endoc|T|2ee044b2106c808bad41ef0484bcf13b
+Item 330 - Anti-hypertenseurs|Cardio,Thérapeutique|T|16f044b2106c800abbc4d4d8f33f4773
+Item 330 - Anti-Vitamines K|Cardio,Hémato,Thérapeutique|T|7465555f531e4e2386862c22bf7f5903
+Item 330 - Anticoagulants Oraux Directs|Cardio,Hémato,Thérapeutique|T|3928d52d989644f1918e4557f16b5eee
+Item 330 - Corticoïdes|Thérapeutique|T|d566f9c07fd943f78f1034d4d21308d1
+Item 330 - Diurétiques|Néphro,Cardio,Thérapeutique|T|9d729322bff146fea98dd4021cd38645
+Item 330 - Hypolipémiants|Cardio,Endoc,Thérapeutique|T|16f044b2106c80aba14ef1b2c8d3f69d
+Item 330 - Héparines|Cardio,Hémato,Thérapeutique|T|4a74e3e0931c44ad973d82ce6e9c6746
+Item 330 - Insuline et analogues|Thérapeutique,Endoc|T|2ee044b2106c80248d46d1b13fee7d52
+Item 331 - ACR et RCP chez l’enfant|Cardio,Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c807aa62efbf5329cdf5c
+Item 331 - Arrêt cardio-circulatoire|Cardio,Urgences-Anesth-Réa|T|19ff6262943143fa87fce0b0ebd3b898
+Item 332 - États de choc|Urgences-Anesth-Réa|T|b854660e9efd4ccda43a7657aed299d4
+Item 332 - États de choc de l’enfant|Urgences-Anesth-Réa,Pédiatrie|T|1d8044b2106c808894d6d17f972e0b7e
+Item 333 - Situations sanitaires exceptionnelles|Urgences-Anesth-Réa|T|2ee044b2106c805abc95eda1e4a6cb81
+Item 334 - Brûlures|Ortho,Dermato,Urgences-Anesth-Réa|T|04bae98fed3f4cc6b27cc53ae6e7d03c
+Item 334 - Fracture du bassin|Ortho,Urgences-Anesth-Réa|P|335044b2106c80e2bd47c7cde3b2dee0
+Item 334 - Fractures du rachis thoraco-lombaire|Ortho,Urgences-Anesth-Réa|P|3cd06e841c1c4d47a327a6c5761b6d00
+Item 334 - Prise en charge d’un traumatisme|Ortho,Urgences-Anesth-Réa|P|c76683d509e94395aebd4c41ad821f73
+Item 334 - Traumatisme abdomino-pelvien|Ortho,Urgences-Anesth-Réa|P|335044b2106c80c1b7d8f6dc68949cc3
+Item 334 - Traumatisme des membres|Ortho,Urgences-Anesth-Réa|P|335044b2106c803aad7ef85c1b47f135
+Item 334 - Traumatisme du rachis cervical|Ortho,Urgences-Anesth-Réa|P|c61d1689054949a199f2239c4c7e9670
+Item 334 - Traumatisme du rachis dorso-lombo-sacré|Ortho,Urgences-Anesth-Réa|P|82d996b7b35a4e389e547d0c295c494b
+Item 334 - Traumatisme sévère|Ortho,ORL,Urgences-Anesth-Réa|T|601f27be661048e9a2f4f50396aa732a
+Item 334 - Traumatisme thoracique|Ortho,Urgences-Anesth-Réa|P|335044b2106c80929751d1bb290c8563
+Item 334 - Traumatisme vertébro-médullaire|Ortho,Urgences-Anesth-Réa|P|5238ce1690014789893cf18ef90e3f8e
+Item 335 - Brûlures oculaires|Ophtalmo,Urgences-Anesth-Réa|T|1d8044b2106c803499f5daebd1985dd4
+Item 335 - Fracture isolée du plancher de l’orbite|CMF,Urgences-Anesth-Réa|T|2b9044b2106c8009852cfd727d288236
+Item 335 - Fracture-disjonction du zygoma|CMF,Urgences-Anesth-Réa|T|2b9044b2106c80b3beb0f43f8071e93f
+Item 335 - Fractures centro-faciales complexes|CMF,Urgences-Anesth-Réa|T|2b6044b2106c8039a800dd0f3cd8f00c
+Item 335 - Fractures de la mandibule|CMF,Urgences-Anesth-Réa|T|2b9044b2106c80a5aacaf55086df65b7
+Item 335 - Fractures des os du nez|CMF,Urgences-Anesth-Réa|T|2b9044b2106c80ac8df4f82f278b2c4d
+Item 335 - Fractures du rocher|ORL,Urgences-Anesth-Réa|T|2b6044b2106c80f0b9b6c1f933efd7d0
+Item 335 - Fractures occluso-faciales de Le Fort|CMF,Urgences-Anesth-Réa|T|2b9044b2106c80cbbcccd514d3227a5f
+Item 335 - Hyphéma|Ophtalmo,Urgences-Anesth-Réa|T|1d8044b2106c809fafacf089793add30
+Item 335 - Hématome extra-dural|Neuro,Urgences-Anesth-Réa|T|9fa13c6bf60d4a009e5d1c6b5236ac73
+Item 335 - Hématome sous-dural|Neuro,Urgences-Anesth-Réa|T|0e14c7a423314123b4d90181d9033a9f
+Item 335 - Lésions des tissus mous de la face|CMF,Urgences-Anesth-Réa|T|2b6044b2106c8050bab1d8f709bd9501
+Item 335 - Traumatisme crânien|Neuro,ORL,Urgences-Anesth-Réa|T|859d27187ee647eb8c35439ef150abd9
+Item 335 - Traumatisme crânien de l’enfant|Neuro,Pédiatrie,ORL,Urgences-Anesth-Réa|T|1d8044b2106c806aad33f253c96ea1a1
+Item 335 - Traumatisme oculaire|Ophtalmo,Urgences-Anesth-Réa|T|2b6044b2106c8040b7eae666a91fe5a6
+Item 335 - Traumatismes alvéolo-dentaires|CMF,Urgences-Anesth-Réa|T|2b9044b2106c802f8c05f4443c744fc5
+Item 336 - Coma non traumatique|Neuro,Urgences-Anesth-Réa|T|a93d7ad38b714009a0dd7781f312e179
+Item 336 - Coma non traumatique de l’enfant|Neuro,Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c80309395e53d569949ef
+Item 337 - Intoxication alcoolique aiguë|Urgences-Anesth-Réa|T|2ee044b2106c80c0ba66dcdc6004f417
+Item 337 - Intoxication au monoxyde de carbone|Urgences-Anesth-Réa|T|2ee044b2106c8034b980e714ca27d08b
+Item 337 - Intoxication au paracétamol|Urgences-Anesth-Réa,Thérapeutique|T|2ee044b2106c809ba523e31947464c4c
+Item 337 - Intoxications|Urgences-Anesth-Réa|T|2ee044b2106c80999faaf92434f673e2
+Item 337 - Intoxications aux cardiotropes|Urgences-Anesth-Réa,Thérapeutique,Cardio|T|2ee044b2106c8057883ad0e99213f3b5
+Item 337 - Intoxications de l’enfant|Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c803e9352f4a43e486ba6
+Item 337 - Toxidromes|Urgences-Anesth-Réa|T|2ee044b2106c80c4b259ebacaee5e773
+Item 338 - Œdème de Quincke et anaphylaxie|Pneumo,Urgences-Anesth-Réa|T|f16c4cfa5f6e4deb856c3075ec725e70
+Item 339 - Angor de Prinzmetal|Cardio,Urgences-Anesth-Réa|T|f14f384bac114ccfb8c2bd24d47458d4
+Item 339 - Angor stable|Cardio,Urgences-Anesth-Réa|T|fe397b2ed8d94e629beef538383b9b24
+Item 339 - SCA ST +|Cardio,Urgences-Anesth-Réa|T|54a485586a4e4f46b1cc6934d573d291
+Item 339 - SCA ST -|Cardio,Urgences-Anesth-Réa|T|ffc57b0e0726498abfe36e1eb4786d6b
+Item 339 - Syndrome coronarien aigu|Cardio,Urgences-Anesth-Réa|T|189044b2106c80dfb0ead1a825add393
+Item 339 - Tako-Tsubo|Cardio,Urgences-Anesth-Réa|T|6f01328956e542e4a2ffdebfa39d4df1
+Item 34 - Suites de couche|Gynéco|T|36d044b2106c804e9af4c8025959c5a0
+Item 340 - Accident Ischémique Transitoire|Neuro,Urgences-Anesth-Réa|T|b94db3f8be984c20b558f0e758c205e2
+Item 340 - Accident Vasculaire Cérébral|Neuro,Urgences-Anesth-Réa|T|e14033e398bd407d8d986af8989d8c2f
+Item 340 - AVC hémorragique|Neuro,Urgences-Anesth-Réa|T|48f8ae78a7fc4cd3812ea1d6f9a27ece
+Item 340 - AVC ischémique|Neuro,Urgences-Anesth-Réa|T|eee4ea3f727348bf8ac9450399c7b661
+Item 340 - Sténose de la carotide|Neuro,Urgences-Anesth-Réa|T|af78152bec5145439f22e1c5f28fd2a5
+Item 340 - Thrombose veineuse cérébrale|Neuro,Urgences-Anesth-Réa|T|e237bb49ad83494ca93878d0b15efe04
+Item 341 - Hémorragie méningée sous-arachnoïdienne|Neuro,Urgences-Anesth-Réa|T|1b44a814b1354f63a8e4f4bd794b2b26
+Item 342 - Malaises et perte de connaissance|Cardio,Neuro,Urgences-Anesth-Réa|T|582bbffc8151454cb88a83d914fb2803
+Item 342 - Malaises et perte de connaissance d’origine cardiaque|Cardio,Neuro,Urgences-Anesth-Réa|T|161044b2106c8011acd0d9ccac6d1359
+Item 343 - Etat confusionnel et trouble de la conscience|Neuro|T|4965ec3062dd475a96652fb5b8e41533
+Item 344 - Pré-éclampsie|Gynéco|T|d80addb83c054c2aaa2cb34affd1d738
+Item 345 - Malaise grave du nourrisson|Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c80d4bf35f39c6b0d959e
+Item 345 - Mort inattendue du nourrisson|Pédiatrie,Urgences-Anesth-Réa|T|1d8044b2106c8037a389f850911141f4
+Item 346 - Convulsion du nourrisson et de l’enfant|Pédiatrie,Urgences-Anesth-Réa|T|36d044b2106c80cd8d4ae0780f19fc37
+Item 347 - Rétention Aiguë d’Urines|Uro|T|6e416bad49f14c30a5192f326d332a7b
+Item 348 - Insuffisance Rénale Aiguë|Uro,Néphro,Urgences-Anesth-Réa|T|503ab4f1dd7c4780acf390e784d61bce
+Item 348 - Oligurie et anurie|Uro,Néphro,Urgences-Anesth-Réa|T|aaf764892ec846ab9171d3e3da38f231
+Item 349 - Panaris|Ortho,Infectio,Urgences-Anesth-Réa|T|b000502862774bc4a479f91b0e4e31fa
+Item 349 - Phlegmon des gaines des fléchisseurs|Ortho,Infectio,Urgences-Anesth-Réa|T|aa2fa263e1864e039175aa53df2ad400
+Item 35 - Anomalies du cycle menstruel|Gynéco|T|4afc4d0b074f4575bdef7cbeca9b3b23
+Item 35 - Syndrome prémenstruel|Gynéco|T|26b044b2106c806b8cdfe22dd24c80e6
+Item 350 - Grosse jambe rouge aiguë|Dermato|T|ac42b02dff294286a84d9bafc6c667db
+Item 351 - Agitation et délire aigu|Psy|T|2c5044b2106c807aac7dfa35bd383d03
+Item 352 - Crise d’angoisse et attaque de panique|Psy|T|2c5044b2106c80aeb0f3c31e88faaf49
+Item 353 - Risque et conduite suicidaire|Psy|T|2c6044b2106c806e9756cffebbeec912
+Item 354 - Syndrome occlusif|HGE,Urgences-Anesth-Réa|T|9cdecc26a2044d9aaffc6affbb182287
+Item 355 - Hémorragie digestive|HGE,Urgences-Anesth-Réa|T|758b80ba87224200b763f1d7b3fde581
+Item 356 - Appendicite|HGE,Urgences-Anesth-Réa|T|e7ee3585909f41fbb2d2d67e60e4417e
+Item 357 - Péritonite aiguë|Infectio,HGE,Urgences-Anesth-Réa|T|7abf2a635b4f4bc3a8e7c751e765be2b
+Item 358 - Pancréatite aiguë|HGE,Urgences-Anesth-Réa|T|8e0b3ba59b0b49e480e7213ccc7a16d5
+Item 359 - Corps étranger de l’oreille|ORL|T|2b6044b2106c809dacb1ee29c415bde7
+Item 359 - Corps étranger des voies aériennes supérieures|Pneumo,ORL|T|03c90db616314b83b3c1de1aefdcb05c
+Item 359 - Corps étranger du nez|ORL|T|2b6044b2106c8031a774d658cdbdbce7
+Item 359 - Corps étranger du pharynx|ORL|T|2b6044b2106c802f85dadf0c555c0d2a
+Item 359 - Dyspnée respiratoire aiguë de l’enfant|Pneumo,Pédiatrie|T|1d8044b2106c80b594f3f241e5cd78b5
+Item 359 - Détresse respiratoire|Pneumo,Urgences-Anesth-Réa|T|9b240f0ccacb4d99a017536870584ce5
+Item 36 - Contraception féminine|Gynéco,Thérapeutique|T|2a8a85d0191241cf931ee7bded810b68
+Item 36 - Contraception masculine|Gynéco,Uro,Thérapeutique|T|26b044b2106c801592c1c27468e5151d
+Item 360 - Pneumothorax|Pneumo,Urgences-Anesth-Réa|T|9b4c6ff039b743fe8952ea6c9b04eb86
+Item 361 - Bursite du genou|Ortho,Rhumato|P|4e6b78abd6f4490d86b4eeb5c06e1b7c
+Item 361 - Bursite olécrânienne|Ortho,Rhumato|P|a267e102cdba467a9687a2b52309e3c8
+Item 361 - Bursite sous-acromiale|Ortho,Rhumato|P|ef02bedac6434e90ac072a63107da195
+Item 361 - Bursopathie|Ortho,Rhumato|P|9ba7fd612262489c847f69def508a193
+Item 361 - Capsulite rétractile|Ortho|P|4ff3264448224e9c8d8e3ab1839f6734
+Item 361 - Disjonction acromio-claviculaire|Ortho|P|4aa25f1a1ee64d8eb583143499ee3eec
+Item 361 - Dislocation sterno-claviculaire|Ortho|P|7da63c340d4d4ff8bc3d7cf400acd6c0
+Item 361 - Entorse de la cheville|Ortho|P|796c1d792b3d4fbe91372653005011ba
+Item 361 - Epicondylite latérale|Ortho|P|c3a031834d034a1e9c793d59cbfedfb2
+Item 361 - Epicondylite médiale|Ortho|P|ad43895274a2440d8a58bc0863735d40
+Item 361 - Kyste poplité|Ortho|P|f6593e190ee44f238782da81fde84acc
+Item 361 - Luxation de rotule|Ortho|P|77b09b8b8ca24990b8ba79aef0d71f8b
+Item 361 - Luxation du coude|Ortho|P|1cd37a1ba9e14865aa4254ae83175424
+Item 361 - Luxation gléno-humérale|Ortho|P|1c4f4c80e134499cb574e03b6ba0e439
+Item 361 - Lésion des ligaments collatéraux du genou|Ortho|P|171672ab84b74ef197b78d3d65c534c5
+Item 361 - Lésion des ligaments croisés du genou|Ortho|P|4bef8865e3d247278822a95d9d2ba0b9
+Item 361 - Lésion du tendon des extenseurs|Ortho|P|8ae551d796134fd985c1c3ed346a5ed4
+Item 361 - Lésion méniscale|Ortho|P|cead7f265fc548d59f00144b226ae3cc
+Item 361 - Maladie d’Osgood-Schlatter|Ortho|P|343e1050e562437a862d17f837a465fa
+Item 361 - Pathologies de la coiffe des rotateurs|Ortho|P|35a6a2d1d45e43759d4d3f97d23a2c49
+Item 361 - Rupture proximale du tendon bicipital|Ortho|P|9d8f47b3b48b4956801dc247d7633f60
+Item 361 - Tendinopathie|Ortho,Rhumato|P|0929c647b4ad4b3fa530281c1088460b
+Item 361 - Tendinopathie achilléenne|Ortho,Rhumato|P|21d21da5584248a4a1dba328a75c791b
+Item 361 - Tendinopathie du genou|Ortho,Rhumato|P|c43b4500c8bc4d86b68a2a2fb696f4db
+Item 362 - Prothèses et ostéosynthèse|Ortho|P|e3ce0e882c834d9ebb46d72187c5d997
+Item 363 - Fracture de Bennett|Ortho|P|21e149b8d7aa4335b956bb35957abd07
+Item 363 - Fracture de la cheville|Ortho|P|d99a26765e1545efac1e589fce68476a
+Item 363 - Fracture de la clavicule|Ortho|P|f94a32876a7d4e42a7520ae6170ccb32
+Item 363 - Fracture de la diaphyse fémorale|Ortho|P|521258ae42c0408497a501c4332d809f
+Item 363 - Fracture de la jambe|Ortho|P|facca0a5c8e248f0a7905eb5ed082d78
+Item 363 - Fracture de la scapula|Ortho|P|346c9f361cc6482b954ddf326301467f
+Item 363 - Fracture de la tête du 5e métacarpien|Ortho|P|df44ff7f8d2e44379b05be4fbcaae817
+Item 363 - Fracture de l’Extrémité Supérieure du Fémur|Ortho|P|045d18b8b8b84cf6a606769d536b4889
+Item 363 - Fracture de l’humérus distal|Ortho|P|fd0e17c205254370b487531ce2df4b7a
+Item 363 - Fracture de l’humérus proximal|Ortho|P|ae47735f7223488193263966a628def1
+Item 363 - Fracture de l’olécrâne|Ortho|P|9ba735b761e441fd83205773e9caa730
+Item 363 - Fracture distale de l’ulna|Ortho|P|b9268b3480174a9da059e1f441d8075e
+Item 363 - Fracture distale du radius|Ortho|P|c841a3d459314557a9e004a8bd346657
+Item 363 - Fracture du bassin|Ortho|P|0b66afdccd8b4645a44765b1f22dedee
+Item 363 - Fracture du doigt|Ortho|P|1a0ef95f36354e97a3fdddd2cdc639ec
+Item 363 - Fracture du scaphoïde|Ortho|P|6cba049d472e4c9babe7c0aed8d4eaed
+Item 363 - Fracture proximale du radius|Ortho|P|cc668fd538304b88a3ba4d55920d7fe9
+Item 363 - Fractures fréquentes|Ortho|P|2bbe990fe4144d0dba7b87f53b60b669
+Item 363 - Ostéonécrose de la tête fémorale|Ortho|P|8bd1f0eb3322485db319df386af51f9c
+Item 363 - Tendinite du moyen fessier|Ortho|P|7d69c93923344a1e9c166503c5773e89
+Item 363 - Traumatisme du pied et des orteils|Ortho|P|8897db84b0ed4ae7a6e66eec0da4850b
+Item 364 - Fractures pédiatriques|Ortho,Pédiatrie|T|17c6017195644608929d8ec091adb022
+Item 365 - Surveillance d’un malade plâtré|Ortho|P|b6f461cef7314e2db7a2cf3951ff2f57
+Item 365 - Syndrome des loges|Ortho,Urgences-Anesth-Réa|T|16b6b648b18044e484c818862cba6eb1
+Item 366 - Exposition Accidentelle aux Liquides Biologiques|Infectio|T|19b1113cb4d14cfd9c0c18be39b6b468
+Item 367 - Impact de l’environnnement sur la santé|Santé Publique|P|2e6044b2106c809bb8cce8e22b20cc8b
+Item 37 - Interruption Volontaire de Grossesse|Gynéco|T|d7d8dee18d6a4c52936f6c40b12e520e
+Item 38 - Bilan d’infertilité de la femme|Uro,Gynéco,Endoc|T|b18137140b2e40618b5553a2cef5ec3a
+Item 38 - Bilan d’infertilité de l’homme|Uro,Gynéco,Endoc|T|5b6eae1f1e334ef48faee2e01e3053ca
+Item 38 - Bilan d’infertilité du couple|Uro,Gynéco,Endoc|T|d784240fbe9844d289feed24a65cc270
+Item 38 - Infertilité|Uro,Gynéco,Endoc|T|85934bd46f7e4075b3aaa9ebb3fa8c9d
+Item 39 - Aide Médicale à la Procréation|Gynéco|T|b58987f731984acda8d77f9b5fcfcc4d
+Item 4 - Sécurité du patient|Infectio,Santé Publique|T|8eb0474ef41743028eb3b1a3192569b1
+Item 40 - Algie pelvienne aiguë chez la femme|Uro,Gynéco|T|7ed9d18f3f3e42d6ab206043465facbc
+Item 40 - Douleurs pelviennes chroniques de la femme|Uro,Gynéco|T|8991864706de49019921e6a542a15d49
+Item 40 - Syndrome de la douleur vésicale|Uro|T|f1bdfce7337b4900b0abac1b143d5f92
+Item 41 - Endométriose|Gynéco|T|596ab9b3534842e6a631b0ee93e5133a
+Item 42 - Aménorrhée|Gynéco,Endoc|T|c1ec481ed50441f0bdc84f3cb5aa7947
+Item 43 - Hémorragie génitale chez la femme|Gynéco|T|b402194259a94213bf973cb7828d904e
+Item 44 - Fibrome utérin|Gynéco|T|0781ab74396741cf8fb62acce18137a5
+Item 44 - Kyste ovarien|Gynéco|T|8071bd62db00418bad855b44a9135f28
+Item 44 - Prolapsus|Gynéco|T|a1b57c0553144d42976d70be5daa829d
+Item 44 - Tuméfaction pelvienne chez la femme|Gynéco|T|0b557654bf884e65945ca949fab2746a
+Item 45 - Mucovicidose|Pneumo,Pédiatrie|T|ee6eb88494284c0eb0f6df54661aca46
+Item 45 - Syndrome de l’X fragile|Pédiatrie|T|1d8044b2106c80399859c41ed34c6d57
+Item 45 - Trisomie 21|Pédiatrie|T|1d8044b2106c80eea587dbeecdecbea6
+Item 46 - Médecine génomique|Gynéco,Pédiatrie,Médecine Légale,Thérapeutique|T|5f8a367e0f3b446c9790559a649a34fc
+Item 47 - Articulé dentaire et anomalies de l’occlusion dentaire|Pédiatrie,CMF|T|2b6044b2106c80fe818dc6086db27654
+Item 47 - Croissance et développement crânio-facial|Pédiatrie,CMF|T|2b6044b2106c80eab163c3445049cc66
+Item 47 - Dépistage des anomalies bucco-dentaires de l’enfant|Pédiatrie,CMF|T|1d8044b2106c8052a20ffa5968307003
+Item 47 - Dépistage des anomalies orthopédiques de l’enfant|Ortho,Pédiatrie|T|1d8044b2106c800ca932ca0d81fd8628
+Item 47 - Dépistage des anomalies visuelles de l’enfant|Pédiatrie,Ophtalmo|T|1d8044b2106c80ae9223ccd7cc1dea83
+Item 47 - Dépistage des troubles auditifs de l’enfant|Pédiatrie,ORL|T|1d8044b2106c80cab563d752fa1704f8
+Item 47 - Eruption dentaire|Pédiatrie,CMF|T|2b6044b2106c8017907df53eae2f5e81
+Item 47 - Examens pédiatriques obligatoires|Pédiatrie|T|17672a031dda43ab884e41e8dea309e1
+Item 47 - Fentes labio-palatines|Pédiatrie,CMF|T|2b6044b2106c80469ce1e4b6ee03cf5b
+Item 47 - Suivi médical pédiatrique|Pédiatrie|T|1d8044b2106c80e5b021f8a89e7138aa
+Item 48 - Alimentation et besoins nutritionnels du nourrisson et de l’enfant|Endoc,Pédiatrie|T|6573ad28e3d04825a7cc6df5e6925098
+Item 49 - Puberté|Endoc,Pédiatrie|T|39a466da2f6e4c3ea8a23a66ca6481e2
+Item 5 - Responsabilité médicale|Santé Publique|T|2e6044b2106c80b985b7d809f5ea0817
+Item 50 - Anomalies du méat urétral|Uro|T|4a525da9895d416aa9f02923ea9b25c7
+Item 50 - Brièveté et rupture du frein|Uro|T|5d8b9b171e804fc899e75283de8f21e1
+Item 50 - Cryptorchidie|Uro|T|b932e014a8a34ddc91814c65c0ae8ec8
+Item 50 - Douleur et œdème du scrotum|Uro|T|879dc73d47e6496d94e420ddc9c4ffef
+Item 50 - Gangrène de Fournier|Uro|T|5d27afd06caf42a68182f57c26ee3fd6
+Item 50 - Hydrocèle vaginale|Uro|T|66b34413ae304a6b9865064c63d7cf47
+Item 50 - Orchiépididymite|Uro|T|f0114b7387a242408ddb66614e9b39b8
+Item 50 - Paraphimosis|Uro|T|accd7726108e49bd8cbe91d6e2665d99
+Item 50 - Phimosis|Uro|T|faa799d7b1584556b7bb7f2492e51eb4
+Item 50 - Torsion du cordon spermatique|Uro|T|01c9d9fc55044208bbc0488869a744a1
+Item 50 - Tumeurs du pénis|Uro|T|14d9903cb79f4046a8260203aa1aa2dc
+Item 50 - Varicocèle|Uro|T|c7a3b1bcb1924ea7a3a91f76ad016cab
+Item 51 - Troubles de la miction chez l’enfant|Uro,Pédiatrie|T|1d8044b2106c806b9f2af7de1ae08810
+Item 52 - Amblyopie|Ophtalmo|T|1d8044b2106c800dac8df188b62fb308
+Item 52 - Strabisme|Ophtalmo|T|1d8044b2106c8096901bf44918c00a11
+Item 53 - Retard de croissance|Endoc,Pédiatrie|T|9b7eaec30d1349b8b0ecbf985d5dd308
+Item 54 - Boiterie de l’enfant|Ortho,Pédiatrie|T|c447429958454bbab6a2b2605f88a8cc
+Item 54 - Epiphysiolyse Fémorale Supérieure|Ortho,Pédiatrie|T|6776a6b3a77440108ec11edf116671ec
+Item 54 - Luxation congénitale de hanche|Ortho,Pédiatrie|T|e7f405222fe24e348c53673a9ebe76b8
+Item 54 - Ostéochondrite primitive de la hanche|Ortho,Pédiatrie|T|295dee784a394c42a8f1e08ff50fcf52
+Item 54 - Synovite aiguë transitoire|Ortho,Pédiatrie|T|97029bf3b5254ae5ba8d60f73be70c98
+Item 55 - Développement psychomoteur anormal|Pédiatrie,Neuro|T|1d8044b2106c80c58cbaf1c6be0dd337
+Item 55 - Développement psychomoteur normal|Pédiatrie,Neuro|T|1d8044b2106c80f8bda0cfe7ba39464b
+Item 55 - Troubles des apprentissages|Psy|T|2c5044b2106c806dbf1ef27185ae0081
+Item 56 - Handicap pédiatrique|MPR,Pédiatrie|T|8789abd06b324db28f88e5016ea5580b
+Item 57 - Maltraitance|Pédiatrie|T|1d8044b2106c80a78aefc5977aecda6c
+Item 58 - Paraphilies|Uro,Gynéco,Psy|T|d20a898cb5784d0d94eba00ee58617e0
+Item 58 - Rapport sexuel normal|Uro,Gynéco,Psy|T|2166d3a2e69347329bf5ad7e56cfe558
+Item 58 - Troubles de la sexualité chez la femme|Gynéco,Uro,Psy|T|d4717c7a535c41419d092966b6eb4012
+Item 58 - Troubles de la sexualité chez l’homme|Uro,Gynéco,Psy|T|f51197108152404282c8d9c2a3d69af2
+Item 59 - Sujets en situation de précarité|Psy,Santé Publique|T|2c5044b2106c80ebb4a5c7fe037f6acb
+Item 6 - Organisation de l’exercice clinique|Santé Publique|T|2e6044b2106c80669b8ef9f76a09aed6
+Item 60 - Facteurs de risque, prévention et dépistage des troubles psychiques|Psy|T|1d8044b2106c80c8a5fbfdc0fd6da0c0
+Item 61 - Examen psychiatrique|Psy|T|1d8044b2106c80febb9ec6aa6894e7e4
+Item 61 - Nosographie psychiatrique|Psy|T|1d8044b2106c80a4ac98d8a42a7972a8
+Item 62 - Organisation de l’offre de soin en psychiatrie|Psy|T|2c5044b2106c80628a28fc6c263bfd6b
+Item 63 - Schizophrénie|Psy|T|1d8044b2106c8051874bee9b280caa9e
+Item 64 - Troubles bipolaires|Psy|T|1d8044b2106c8084bed6d8d27c9f98fe
+Item 65 - Troubles délirant persistant|Psy|T|1d8044b2106c80b483ecc43ee0d9b397
+Item 66 - Agoraphobie|Psy|T|1d8044b2106c8020b480df42db2301eb
+Item 66 - Anxiété de séparation|Psy|T|1d8044b2106c80068cf1fb904db59827
+Item 66 - Personnalité anti-sociale|Psy|T|1d8044b2106c8007b48ded719aa1fea3
+Item 66 - Personnalité borderline|Psy|T|1d8044b2106c8038961efbd97a567f46
+Item 66 - Personnalité dépendante|Psy|T|1d8044b2106c801c93e4c5f9894576cc
+Item 66 - Personnalité histrionique|Psy|T|1d8044b2106c802094beee66c571f1e0
+Item 66 - Personnalité narcissique|Psy|T|1d8044b2106c80c593fbd7107d35f7cf
+Item 66 - Personnalité obsessionnelle-compulsive|Psy|T|1d8044b2106c80e59a06ec947d2cf797
+Item 66 - Personnalité paranoïaque|Psy|T|1d8044b2106c801a8f80c7c5febb600a
+Item 66 - Personnalité schizotypique|Psy|T|1d8044b2106c80208345f99d9f212f89
+Item 66 - Personnalité schizoïde|Psy|T|1d8044b2106c8018bc0adbdcc4344cf6
+Item 66 - Personnalité évitante|Psy|T|1d8044b2106c80d4864cffddf4f68670
+Item 66 - Phobie sociale|Psy|T|1d8044b2106c80e58a0de621aedadf99
+Item 66 - Phobies spécifique|Psy|T|1d8044b2106c8074beceff3faf60c834
+Item 66 - Trouble Anxieux Généralisé|Psy|T|1d8044b2106c80688c1dc52b88a27332
+Item 66 - Trouble de l’adaptation|Psy|T|1d8044b2106c80af87eed12c55a3f74c
+Item 66 - Trouble de Stress-Post Traumatique|Psy|T|1d8044b2106c80e794dae87652cfc83a
+Item 66 - Trouble Obsessionnel Compulsif|Psy|T|1d8044b2106c809d8fe9d3cf961296cc
+Item 66 - Troubles anxieux|Psy|T|1d8044b2106c80088a61fdea0493e720
+Item 66 - Troubles de la personnalité|Psy|T|1d8044b2106c8006b3e7dbe47a664fb1
+Item 66 - Troubles de l’humeur|Psy|T|1d8044b2106c8041a612ea3e3e6a03e1
+Item 66 - Troubles dépressifs|Psy|T|1d8044b2106c803fb75cec8fb259dbd7
+Item 67 - Troubles du Déficit de l’Attention et de l’Hyperactivité|Psy|T|1d8044b2106c805397b9c8924d0cadcf
+Item 67 - Troubles du neuro-développement|Psy|T|1d8044b2106c8088b843ca57b0a4f26e
+Item 67 - Troubles du Spectre Autistique|Psy|T|1d8044b2106c80a0880bd54ba2ba9b5e
+Item 68 - Troubles du comportement de l’enfant et de l’adolescent|Psy,Pédiatrie|T|1d8044b2106c80e0b709c35571569583
+Item 69 - Grossesse et post-partum chez les femmes présentant des troubles psychiatriques antérieurs à la grossesse|Gynéco,Psy|T|4811e27580224d4ab27db685504c8271
+Item 69 - Troubles psychiatriques du post-partum chez les femmes sans antécédents psychiatriques|Gynéco,Psy|T|2c849c77fb42475dad38259ab60246f4
+Item 69 - Troubles psychiatriques pendant la grossesse chez les femmes sans antécédents psychiatriques|Gynéco,Psy|T|dbd6156d231343d6ac40cd08f977209c
+Item 69 - Troubles psychiques de la grossesse et du post-partum|Gynéco,Psy|T|9908060c9de54eadbc73be2fc7b7f763
+Item 7 - Droits individuels et collectifs|Médecine Légale|T|2e6044b2106c800eba35cf360eba5691
+Item 70 - Troubles psychiques du sujet âgé|Gériatrie,Psy|T|bcca0f9f830b4be5bccdc5947456a046
+Item 71 - Anorexie mentale|Endoc,Psy|T|2c6044b2106c80b0a441cfebdcf0df8e
+Item 71 - Autres troubles de l’ingestion alimentaire|Endoc,Psy|T|2c6044b2106c8091acbac06d373c90e2
+Item 71 - Boulimie|Endoc,Psy|T|2c6044b2106c807f847fc96e460f2792
+Item 71 - Hyperphagie boulimique|Endoc,Psy|T|2c6044b2106c8063b456efc12c1d3aab
+Item 71 - Troubles des Comportements Alimentaires|Endoc,Psy|T|682606de59bf4552bcc196843b18814d
+Item 72 - Troubles somatoformes|Médecine Interne,Psy|T|3a9fb66a85ee4718b39b1fd08f0411a3
+Item 73 - Techniques psychothérapeutiques|Psy|T|1d8044b2106c80638351f7c2693d8a83
+Item 74 - Antidépresseurs|Psy,Thérapeutique|T|1d8044b2106c80a3915bebf26fa9baae
+Item 74 - Antipsychotiques (Neuroleptiques)|Psy,Thérapeutique|T|1d8044b2106c804098d4f90291f7af2e
+Item 74 - Anxiolytiques|Psy,Thérapeutique|T|1d8044b2106c807db5e2d7923b2ebdc6
+Item 74 - Hypnotiques|Psy,Thérapeutique|T|1d8044b2106c803f83bcfe3a35903c68
+Item 74 - Intoxication au lithium|Psy,Thérapeutique|T|2cc044b2106c80f9b10ffe592dde1004
+Item 74 - Intoxication aux benzodiazépines|Psy,Thérapeutique|T|1d8044b2106c80ccbf54d663d7f49b07
+Item 74 - Intoxication aux ISRS/IRSNA|Psy,Thérapeutique|T|2cc044b2106c8096bc01f924c8af5a42
+Item 74 - Intoxication aux neuroleptiques|Psy,Thérapeutique|T|2cc044b2106c802982afea78fc80dc67
+Item 74 - Intoxication aux opiacés|Psy,Thérapeutique|T|2cc044b2106c804892e4c3859645d33f
+Item 74 - Intoxication aux tricycliques|Psy,Thérapeutique|T|2cc044b2106c8053b06eccb95b06d06d
+Item 74 - Intoxications aux psychotropes|Psy,Thérapeutique|T|1d8044b2106c80b9b0b3c12d38ad2902
+Item 74 - Psychostimulants|Psy,Thérapeutique|T|1d8044b2106c80adaf95f782127c09e4
+Item 74 - Psychotropes|Psy,Thérapeutique|T|1d8044b2106c8044a4f7d969cb724286
+Item 74 - Thymorégulateurs|Psy,Thérapeutique|T|1d8044b2106c804ba59ed52f7ff0ed30
+Item 75 - Addiction au tabac|Pneumo,Psy|T|cc644e4e7f24482f832eb24ed7c2fba9
+Item 76 - Addiction à l’alcool|Endoc,Psy|T|1d8044b2106c8073a298fb13a045201a
+Item 77 - Addiction aux médicaments psychotropes|Psy|T|1d8044b2106c80068006c6b2ad7ad4b7
+Item 78 - Addiction au cannabis|Psy|T|1d8044b2106c8094871ec23716622a3f
+Item 78 - Addiction aux amphétamines|Psy|T|1d8044b2106c80bba08bf155abfacd23
+Item 78 - Addiction aux autres drogues|Psy|T|1d8044b2106c806fb545e725740110c1
+Item 78 - Addiction aux nouveaux produits de synthèse|Psy|T|1d8044b2106c80c8bc4ad08a5dc28cb4
+Item 78 - Addiction aux opioïdes|Psy|T|1d8044b2106c80c5b2e3f129448b1026
+Item 78 - Addiction à la cocaïne|Psy|T|1d8044b2106c8076b2b6faa687e39895
+Item 79 - Addictions comportementales|Psy|T|1d8044b2106c80d5884bfa02e997ee02
+Item 8 - Discriminations|Santé Publique|P|2e6044b2106c80efa1a9edb502f2f3d4
+Item 80 - Dopage|Endoc,Psy|T|c776f39ca1324bcf9920dadc09b52e4a
+Item 81 - Affections du champ visuel|Ophtalmo|T|1d8044b2106c80f89136f6eef8d67f8c
+Item 81 - Altération chronique de la vue|Ophtalmo|T|1d8044b2106c802ba308e279667db5e3
+Item 81 - Cataracte|Ophtalmo|T|1d8044b2106c80f6af97da7c21310a4a
+Item 81 - Dégénérescence Maculaire Liée à l’Âge|Ophtalmo,Gériatrie|T|1d8044b2106c8024ab9ff3ddaed0e567
+Item 81 - Maculopathies et neuropathies optiques toxiques|Ophtalmo|T|2cc044b2106c8027a6fbc1dab36ab0ec
+Item 81 - Membrane épirétinienne|Ophtalmo|T|2c1044b2106c809090a8ec24ee6906d0
+Item 81 - Trou maculaire|Ophtalmo|T|2cc044b2106c806f8860d79ad5108158
+Item 82 - Altération aiguë de la vue|Ophtalmo|T|1d8044b2106c8087bf50f02b542e4091
+Item 82 - Décollement de rétine|Ophtalmo|T|1d8044b2106c802bbb04cf095968fea1
+Item 82 - Hémorragie intra-vitréenne|Ophtalmo|T|1d8044b2106c8080b43fd98a3719645a
+Item 82 - Neuropathie Optique Ischémique Antérieure Aiguë|Ophtalmo|T|1d8044b2106c8002bb4afb7bc72c37a3
+Item 82 - Neuropathie Optique RétroBulbaire|Ophtalmo|T|1d8044b2106c8030a0eacc40428bd69e
+Item 82 - Occlusion de branche de la Veine Centrale de la Rétine|Ophtalmo|T|1d8044b2106c80d1a76bead15886f471
+Item 82 - Occlusion de Branche de l’Artère Centrale de la Rétine|Ophtalmo|T|1d8044b2106c804c89dbdc4b8e34035d
+Item 82 - Occlusion de la Veine Centrale de la Rétine|Ophtalmo|T|1d8044b2106c802db5e0d7a3896159af
+Item 82 - Occlusion de l’Artère Centrale de la Rétine|Ophtalmo|T|1d8044b2106c806e9b02e08e08b65105
+Item 82 - Œdème papillaire|Ophtalmo|T|1d8044b2106c80d88e9ac90d21ad8e30
+Item 83 - Cellulite orbitaire et pré-septale|Ophtalmo|T|1d8044b2106c807db38bfc734a18bb80
+Item 83 - Conjonctivite allergique|Ophtalmo|T|1d8044b2106c80f9bd5bc57b3cf40584
+Item 83 - Conjonctivite bactérienne|Ophtalmo,Infectio|T|1d8044b2106c80649887fbb7e3012022
+Item 83 - Conjonctivite virale|Ophtalmo,Infectio|T|1d8044b2106c8075857cfa15c682e7bd
+Item 83 - Endophtalmie|Ophtalmo|T|1d8044b2106c8017b6fcd02098cc972a
+Item 83 - Hémorragie sous-conjonctivale|Ophtalmo|T|1d8044b2106c808496e8e34c4352a57e
+Item 83 - Kératite|Ophtalmo|T|1d8044b2106c802e9055e90de49ac1cf
+Item 83 - Kératoconjonctivite sèche|Ophtalmo|T|1d8044b2106c80e1aafbf0327f041f9f
+Item 83 - Sclérite et épisclérite|Ophtalmo|T|1d8044b2106c80e6983efc3b23447d29
+Item 83 - Sécheresse oculaire|Ophtalmo|T|1d8044b2106c80389e31e107dbe57780
+Item 83 - Uvéite|Ophtalmo|T|1d8044b2106c803ebf9dee39589d0be5
+Item 83 - Uvéite antérieure|Ophtalmo|T|1d8044b2106c8081b20fe865708368e1
+Item 83 - Uvéite intermédiaire|Ophtalmo|T|1d8044b2106c802b9aedcb7e80c726a5
+Item 83 - Uvéite postérieure|Ophtalmo|T|1d8044b2106c808bbc21d20b5d7f89f5
+Item 83 - Œil rouge|Ophtalmo|T|1d8044b2106c80c28606c18cce3fd12a
+Item 84 - Crise aiguë par fermeture de l’angle|Ophtalmo|T|1d8044b2106c80cfa207e5bedf91dcdd
+Item 84 - Glaucome chronique|Ophtalmo|T|1d8044b2106c80369f8cd1fca3299683
+Item 85 - Anomalies de la réfraction|Ophtalmo|T|1d8044b2106c805e9a47fc3154651e29
+Item 85 - Astigmatisme|Ophtalmo|T|1d8044b2106c801889f8d31268d18dbb
+Item 85 - Hypermétropie|Ophtalmo|T|1d8044b2106c80c9878ae2d964b2c583
+Item 85 - Kératocône|Ophtalmo|T|1d8044b2106c808c8027db04acb8b5a9
+Item 85 - Myopie|Ophtalmo|T|1d8044b2106c800aad8beb1f8fbfe7c0
+Item 85 - Presbytie|Ophtalmo|T|1d8044b2106c80dcad6bdc223d1d720d
+Item 86 - Blépharite|Ophtalmo|T|1d8044b2106c8098a424d689f015c354
+Item 86 - Chalazion|Ophtalmo|T|1d8044b2106c80e08d7ecaae0ccdfd86
+Item 86 - Ectropion|Ophtalmo|T|1d8044b2106c80038e4ce8fa841b76ce
+Item 86 - Entropion|Ophtalmo|T|1d8044b2106c80c7b08fd9761da52a2a
+Item 86 - Lagophtalmie|Ophtalmo|T|1d8044b2106c80efb803cb7f70f578dc
+Item 86 - Orgelet|Ophtalmo|T|1d8044b2106c8001a2b7c701f43b25e0
+Item 86 - Ptosis|Ophtalmo|T|1d8044b2106c8053847ff0a010e8aa46
+Item 86 - Syndrome de Claude Bernard-Horner|Ophtalmo,Neuro|T|1d8044b2106c80319d4eea19da9ebaea
+Item 86 - Tumeurs palpébrales|Ophtalmo,Cancéro|T|1d8044b2106c80029d05d695d3cda37f
+Item 87 - Epistaxis|ORL|T|2b6044b2106c80d097b3e4ce75e9f6a7
+Item 88 -  Dysphonie|ORL|T|2b6044b2106c80179408df901a5dd11c
+Item 89 -  Altération de la fonction auditive|ORL|T|2b6044b2106c803cb7efe073bf079faa
+Item 89 -  Otospongiose|ORL|T|2b6044b2106c8085b8dcdcb37f024c0d
+Item 89 -  Presbyacousie|ORL,Gériatrie|T|2b6044b2106c80618d90eec50bc9da92
+Item 89 -  Schwanomme vestibulaire|ORL,Cancéro|T|2b6044b2106c806ba4cdfd4604c09928
+Item 89 -  Surdité unilatérale brusque|ORL|T|2b6044b2106c80b7a6c2c23cf9e82402
+Item 9 - Ethique médicale|Médecine Légale|P|2e6044b2106c80ae9206d4b685b6d4ed
+Item 9 - Mesures de protection|MPR,Médecine Légale|P|20f9f6679339485ca89e97e391bd3bb3
+Item 90 -  Lithiase salivaire|ORL,CMF|T|2b6044b2106c80378adbf9c7f3bd9f67
+Item 90 -  Sialadénite|ORL,CMF|T|2b6044b2106c80ad8fabd51fb1df5a28
+Item 90 -  Sialadénose|ORL,CMF|T|2b6044b2106c8008ba66d8ddadd9e216
+Item 90 -  Tumeurs bénignes des glandes salivaires|ORL,CMF,Cancéro|T|2c6044b2106c80aba701f4bd4062493f
+Item 90 -  Tumeurs des glandes salivaires|ORL,CMF,Cancéro|T|2c6044b2106c803b9e5edff01d1f1e22
+Item 90 -  Tumeurs malignes des glandes salivaires|ORL,CMF,Cancéro|T|2c6044b2106c80e7a6f4dbb92ffb41f6
+Item 91 - Déficit neurologique récent|Neuro|T|85b254bbe21b4d60b8f857588bc5759b
+Item 92 - Déficit moteur et sensitif des membres|Neuro|T|216044b2106c8034b47dd90349da9446
+Item 93 - Compression médullaire non traumatique|Ortho,Neuro,Rhumato|T|58abccd634484f53b09800249da6d752
+Item 93 - Hernie discale|Ortho,Neuro,Rhumato|T|0debe40a7a9940bbb3fa999efb8c9e6a
+Item 93 - Syndrome de la queue de cheval|Ortho,Neuro,Rhumato|T|7ce9a7f19fed4623a72ee9fea1ce7fc8
+Item 94 - Cervicalgie|Ortho,Rhumato|T|0b7bb4d6b4754fc29eeb2ec97bce3184
+Item 94 - Lumbago|Ortho,Rhumato|T|5aa0a6a1dd7946cb8a14aef059f21e50
+Item 94 - Rachialgies|Ortho,Rhumato|T|57cab82a408743259f6c4c89128957cd
+Item 95 - Canal rachidien étroit|Ortho,Rhumato,Neuro|T|dca2e47fcde54d56ae5638ae698ae551
+Item 95 - Lombocruralgie|Ortho,Rhumato,Neuro|T|e9c20122c5ea480bb0910aaa2b0edcd6
+Item 95 - Lombosciatique|Ortho,Rhumato,Neuro|T|9f14e0f0096f4f53ad495b8ade99bd32
+Item 95 - Plexopathies brachial|Ortho,Rhumato,Neuro|T|609c86b1742744fea1ef0d20321fa966
+Item 95 - Radiculalgies|Ortho,Rhumato,Neuro|T|2926a4a9b6c0409e88be1aa49e24c1b8
+Item 95 - Syndrome de Parsonage-Turner|Ortho,Rhumato,Neuro|T|ec8ea98fcf114be181b28ec752405544
+Item 95 - Syndrome du canal carpien|Ortho,Rhumato|T|01e22d1588b44320b125bff9cb53d1f0
+Item 95 - Syndrome du défilé thoraco-brachial|Ortho,Rhumato,Neuro|T|1621607221614d57a13ba89e4d8fe9fb
+Item 96 - Neuropathies périphériques|Neuro|T|d362e6ddf9fc431993e46b4f5fc72497
+Item 96 - Sclérose Latérale Amyotrophie|Neuro|T|1e5e8202506745e1919064aeb9a2ed50
+Item 97 - Syndrome de Guillain-Barré|Neuro|T|f56030b01a384178bdf46cf668746b0b
+Item 98 - Myasthénie|Neuro|T|d64be718975a4327bb1b5ed8afe402fc
+Item 98 - Syndrome de Lambert-Eaton|Neuro|T|af15f00d9913427a8edac2c9ed66c30f
+Item 99 - Algies vasculaires de la face|Neuro|T|7402e8b9f7ce4ae6982ca883192c24b3
+Item 99 - Douleurs crânio-faciales|Neuro,CMF|T|217044b2106c8059a153f493e13d04de
+Item 99 - Migraine|Neuro|T|cd82b5a97a8a45c39284fbb320ad372c
+Item 99 - Neuropathies crâniennes douloureuses|Neuro|T|501571a761124d8ab29f1cbdac82a796
+Item 99 - Névralgie du trijumeau|Neuro|T|8c94d6783d13437ca6f5246096aa6693

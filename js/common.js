@@ -16,7 +16,16 @@
       .replace(/(^|[^*])\*(?!\s)(.+?)\*/g, '$1<em>$2</em>')
       .replace(/`(.+?)`/g, '<code>$1</code>')
       .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, url) =>
-        /^(https?:|[\w.-]+\.html|#)/.test(url) ? `<a href="${url}">${t}</a>` : t);
+        /^(https?:|[\w.-]+\.html|#)/.test(url) ? `<a href="${url}">${t}</a>` : t)
+      .replace(/\n/g, '<br>');
+
+  /* Fusion des fiches de synthèse (Atlas) et des fiches importées de Notion */
+  EDN.PATHOLOGIES = [
+    ...(EDN.SYNTHESES || []).map((p) => ({ ...p, source: 'atlas', statut: 'redigee', matieres: [] })),
+    ...(EDN.NOTION || []).map((p) => ({ ...p, source: 'notion' })),
+  ];
+  EDN.notionUrl = (p) => `https://www.notion.so/${p.notion}`;
+  EDN.ficheScript = (p) => (p.source === 'notion' ? `data/notion/fiches/${p.id}.js` : `data/fiches/${p.id}.js`);
 
   EDN.organe = (id) => (EDN.ORGANES || []).find((o) => o.id === id);
   EDN.pathologie = (id) => (EDN.PATHOLOGIES || []).find((p) => p.id === id);
@@ -44,9 +53,9 @@
     if (!n) return [];
     return EDN.PATHOLOGIES.filter((p) => {
       const organes = p.organes.map((o) => (EDN.organe(o) || {}).nom || o).join(' ');
-      const hay = EDN.normalize(`${p.titre} ${organes} ${p.items.join(' ')}`);
+      const hay = EDN.normalize(`${p.titre} ${organes} ${p.items.join(' ')} ${(p.matieres || []).join(' ')}`);
       return n.split(/\s+/).every((w) => hay.includes(w));
-    }).slice(0, 12);
+    }).slice(0, 20);
   };
 
   EDN.attachSearch = (input, list) => {
@@ -58,7 +67,7 @@
             .map(
               (p) => `<li><a href="fiche.html?id=${encodeURIComponent(p.id)}">
                 <span class="sr-title">${EDN.esc(p.titre)}</span>
-                <span class="sr-meta">${p.organes.map((o) => EDN.esc((EDN.organe(o) || {}).nom || o)).join(' · ')}${p.items.length ? ' · Item ' + p.items.join(', ') : ''}${p.statut !== 'redigee' ? ' · <em>à rédiger</em>' : ''}</span>
+                <span class="sr-meta">${p.items.length ? 'Item ' + p.items.join(', ') + ' · ' : ''}${p.organes.map((o) => EDN.esc((EDN.organe(o) || {}).nom || o)).join(' · ')}${p.source === 'atlas' ? ' · <em>synthèse</em>' : ''}</span>
               </a></li>`
             )
             .join('')

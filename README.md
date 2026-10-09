@@ -1,53 +1,64 @@
 # Atlas EDN
 
-Atlas interactif du corps humain pour réviser l'EDN : on clique sur un organe, on obtient ses principales pathologies, et chaque pathologie a sa fiche récapitulative avec schémas, tableaux comparatifs, algorithmes et scores interactifs. Les fiches suivent les items du R2C.
+Atlas interactif du corps humain pour réviser l'EDN : on clique sur un organe pour voir les items R2C qui s'y rapportent, puis on ouvre la fiche de chaque item. Les fiches viennent de la base Notion « Items », complétées par quelques fiches de synthèse rédigées pour le site (schémas, scores interactifs, algorithmes).
 
-Le site est **100 % statique** : pas de build, pas de dépendance. Il fonctionne sur GitHub Pages et s'ouvre aussi en local en double-cliquant sur `index.html`.
+Le site est **100 % statique** : pas de build ni de dépendance. Il fonctionne sur GitHub Pages et s'ouvre aussi en local en double-cliquant sur `index.html`.
 
 ## Structure
 
 ```
-index.html            Accueil : corps humain animé et cliquable
-organe.html?o=<id>    Liste des pathologies d'un organe
-fiche.html?id=<id>    Fiche d'une pathologie
-css/style.css         Styles (thème clair/sombre, impression)
-js/anatomy.js         Dessin SVG du corps et des organes
-js/render.js          Rendu des blocs de contenu d'une fiche
-data/organes.js       Liste des organes
-data/index.js         Index des pathologies (titre, organes, items R2C, statut)
-data/fiches/<id>.js   Contenu détaillé de chaque fiche
-data/fiches/_modele.js  Modèle commenté pour écrire une nouvelle fiche
+index.html              Accueil : corps interactif (femme / homme) et recherche
+organe.html?o=<id>      Fiches d'un organe, regroupées par item R2C
+fiche.html?id=<id>      Une fiche (synthèse Atlas ou fiche Notion)
+css/style.css           Styles (thème clair/sombre, impression)
+js/anatomy.js           Corps interactif (organes cliquables, animations)
+js/render.js            Rendu des blocs de contenu d'une fiche
+data/organes.js         Organes / appareils
+data/index.js           Fiches de synthèse Atlas (contenu : data/fiches/<id>.js)
+data/notion/items.tsv   Liste des pages de la base Notion « Items »
+data/notion/index.js    Index généré (organes, n° d'item) — ne pas modifier
+data/notion/fiches/     Fiches converties depuis Notion — ne pas modifier
+assets/anatomogram/     Illustration anatomique (CC BY 4.0, voir LICENSE.md)
+scripts/                Outils (Python 3, sans dépendance)
 ```
 
-## Ajouter une fiche
+## Synchroniser Notion (toutes les fiches, automatiquement)
 
-1. Dans `data/index.js`, repérer (ou ajouter) la pathologie, par exemple `{ id: 'sca', … }`.
-2. Copier `data/fiches/_modele.js` vers `data/fiches/sca.js` et remplacer `'mon-id'` par `'sca'`.
-3. Rédiger le contenu à l'aide des blocs disponibles : `p`, `liste`, `encadre`, `tableau`, `cartes`, `algo`, `schema`, `score`. Le modèle documente chacun d'eux.
-4. Passer `statut: 'redigee'` dans `data/index.js` et renseigner `items: [numéro]`.
+Le script `scripts/notion-sync.py` lit la base « Items » via l'API officielle de Notion. Il convertit chaque page « Terminé » ou « En cours » en fiche du site, en conservant les sections colorées, les colonnes, les dépliants et les tableaux. Les images sont rapatriées dans `assets/notion/`.
 
-Mise en forme utilisable dans tous les textes : `**gras**`, `*italique*`, `==surligné==`, `` `code` `` et `[lien](fiche.html?id=bpco)`.
+1. **Créer une intégration Notion** sur <https://www.notion.so/my-integrations>, de type « Interne », avec la seule capacité « Lire le contenu ». Copier le jeton secret.
+2. **Lui donner accès à la base** : ouvrir la base « Items » dans Notion, cliquer sur `•••` puis Connexions, et ajouter l'intégration.
+3. **Ajouter le jeton dans GitHub** : Settings → Secrets and variables → Actions → New repository secret. Nom : `NOTION_TOKEN`.
+4. **Lancer la synchronisation** : onglet Actions → « Synchronisation Notion » → Run workflow. Elle tourne ensuite automatiquement chaque nuit et n'importe que les pages modifiées.
 
-Chaque section (ou chaque bloc) peut recevoir un `rang: 'A'` ou `'B'`. Le bouton « Rang A uniquement » de la fiche s'en sert pour filtrer.
+En local :
 
-## Ajouter un organe
+```bash
+NOTION_TOKEN=secret_xxx python3 scripts/notion-sync.py            # pages modifiées
+NOTION_TOKEN=secret_xxx python3 scripts/notion-sync.py --force    # tout réimporter
+NOTION_TOKEN=secret_xxx python3 scripts/notion-sync.py --limit 5  # test rapide
+```
 
-1. Ajouter l'organe dans `data/organes.js`.
-2. Pour le rendre cliquable sur le corps, ajouter sa forme dans `ORGAN_SHAPES` (`js/anatomy.js`, viewBox 0 0 400 900) et son id dans le tableau `order` de `EDN.buildBody`.
-   Un organe absent du dessin reste accessible depuis la liste « Tous les organes ».
+Autres scripts :
+
+- `scripts/build-notion-index.py` régénère `data/notion/index.js` depuis `items.tsv`. Le rattachement aux organes se fait d'abord par mots-clés du titre, puis par matière. Pour corriger un classement, ajuster `ORGAN_RULES`.
+- `scripts/import-notion-md.py DOSSIER` importe des pages au format Markdown Notion (un fichier `<id_notion>.md` par page).
+- `scripts/build-anatomy.py` régénère les silhouettes.
+
+## Ajouter une fiche de synthèse Atlas
+
+1. Ajouter l'entrée dans `data/index.js`.
+2. Copier `data/fiches/_modele.js` vers `data/fiches/<id>.js`. Les blocs disponibles sont documentés dans le modèle : `p`, `liste`, `encadre`, `tableau`, `cartes`, `colonnes`, `algo`, `schema`, `score`, `image`.
+
+Mise en forme utilisable dans tous les textes : `**gras**`, `*italique*`, `==surligné==`, `` `code` `` et `[lien](fiche.html?id=…)`.
 
 ## Publier sur GitHub Pages
 
-Settings → Pages → *Build and deployment* → Source : **Deploy from a branch**, puis choisir la branche et le dossier `/ (root)`.
-Le site sera servi à l'adresse `https://<utilisateur>.github.io/<dépôt>/`.
+Settings → Pages → *Deploy from a branch*, puis choisir la branche et le dossier `/ (root)`.
 
-## Tester en local
+> ⚠️ **Droits d'auteur.** Une partie des fiches Notion reprend des contenus de plateformes payantes : de nombreux liens pointent vers hypocampus.fr. Le site retire ces liens et images, mais le texte reste. Un site GitHub Pages est **public** : ne publie le contenu importé de Notion que s'il s'agit de ta propre rédaction. À défaut, garde le site en local ou dans un dépôt privé avec un hébergement privé.
 
-```bash
-python3 -m http.server 8000
-# puis ouvrir http://localhost:8000
-```
+## Crédits
 
-## Avertissement
-
-Ces fiches sont des notes de révision personnelles et ne remplacent pas les référentiels des collèges. **Les numéros d'items et les rangs A/B sont indicatifs** : vérifiez-les sur la liste officielle du R2C.
+- Illustration anatomique : EMBL-EBI Expression Atlas anatomogram, CC BY 4.0 (`assets/anatomogram/LICENSE.md`).
+- Fiches : notes personnelles fondées sur les items du R2C. Elles ne remplacent pas les référentiels des collèges.

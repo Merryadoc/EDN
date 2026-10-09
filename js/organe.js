@@ -11,8 +11,8 @@
   }
   document.title = `${o.nom} · Atlas EDN`;
 
-  const paths = EDN.PATHOLOGIES.filter((p) => p.organes.includes(id))
-    .sort((a, b) => (a.statut === b.statut ? 0 : a.statut === 'redigee' ? -1 : 1));
+  const paths = EDN.PATHOLOGIES.filter((p) => p.organes.includes(id));
+  const nbItems = new Set(paths.flatMap((p) => p.items)).size;
 
   app.innerHTML = `
     <nav class="crumbs"><a href="index.html">Corps</a> <span>›</span> ${EDN.esc(o.nom)}</nav>
@@ -22,42 +22,63 @@
         <p class="eyebrow">${o.specialites.map(EDN.esc).join(' · ')}</p>
         <h1>${EDN.esc(o.nom)}</h1>
         <p class="lead">${EDN.esc(o.intro)}</p>
+        <p class="organ-count">${nbItems} item${nbItems > 1 ? 's' : ''} R2C · ${paths.length} fiche${paths.length > 1 ? 's' : ''}</p>
       </div>
     </header>
 
     <div class="toolbar">
-      <input id="filter" type="search" placeholder="Filtrer les pathologies…" aria-label="Filtrer">
-      <label class="check"><input type="checkbox" id="only-done"> Fiches rédigées uniquement</label>
+      <input id="filter" type="search" placeholder="Filtrer (titre, n° d'item, matière)…" aria-label="Filtrer">
+      <label class="check"><input type="checkbox" id="only-content"> Contenu disponible sur le site uniquement</label>
     </div>
 
-    <ul class="patho-grid" id="grid"></ul>`;
+    <div id="groups"></div>`;
 
-  EDN.buildOrganIcon(document.getElementById('art'), id);
+  const art = document.getElementById('art');
+  if (o.horsCorps || !EDN.buildOrganIcon(art, id)) art.classList.add('is-empty');
 
-  const grid = document.getElementById('grid');
   const filter = document.getElementById('filter');
-  const onlyDone = document.getElementById('only-done');
+  const onlyContent = document.getElementById('only-content');
+
+  const etatLabel = { termine: 'Terminée', 'en-cours': 'En cours', 'pas-commence': 'Pas commencée' };
+  function card(p) {
+    const hasContent = p.statut === 'redigee';
+    const others = p.organes.filter((x) => x !== id).map((x) => (EDN.organe(x) || {}).nom).filter(Boolean);
+    const meta = p.source === 'atlas'
+      ? '<span class="dot ok"></span>Synthèse Atlas'
+      : `<span class="dot ${p.etat === 'termine' ? 'ok' : ''}"></span>Notion · ${etatLabel[p.etat] || p.etat}${hasContent ? '' : ' · non importée'}`;
+    return `<li>
+      <a class="patho-card ${p.source === 'atlas' ? 'is-synthese' : ''} ${hasContent ? '' : 'is-todo'}" href="fiche.html?id=${encodeURIComponent(p.id)}&o=${id}">
+        ${p.matieres && p.matieres.length ? `<div class="patho-badges">${p.matieres.slice(0, 3).map((m) => `<span class="badge badge-muted">${EDN.esc(m)}</span>`).join('')}</div>` : ''}
+        <h3>${EDN.esc(p.titre)}</h3>
+        <p class="patho-meta">${meta}${others.length ? ` · aussi : ${others.map(EDN.esc).join(', ')}` : ''}</p>
+      </a></li>`;
+  }
 
   function render() {
-    const q = EDN.normalize(filter.value);
-    const list = paths.filter(
-      (p) => (!onlyDone.checked || p.statut === 'redigee') && EDN.normalize(p.titre + ' ' + p.items.join(' ')).includes(q)
+    const q = EDN.normalize(filter.value.trim());
+    const list = paths.filter((p) =>
+      (!onlyContent.checked || p.statut === 'redigee') &&
+      EDN.normalize(`${p.titre} ${p.items.join(' ')} ${(p.matieres || []).join(' ')}`).includes(q)
     );
-    grid.innerHTML = list.length
-      ? list.map((p) => {
-          const done = p.statut === 'redigee';
-          const others = p.organes.filter((x) => x !== id).map((x) => (EDN.organe(x) || {}).nom).filter(Boolean);
-          return `<li>
-            <a class="patho-card ${done ? '' : 'is-todo'}" href="fiche.html?id=${encodeURIComponent(p.id)}&o=${id}">
-              <div class="patho-badges">${EDN.itemBadges(p.items)}</div>
-              <h3>${EDN.esc(p.titre)}</h3>
-              <p class="patho-meta">${done ? '<span class="dot ok"></span>Fiche rédigée' : '<span class="dot"></span>À rédiger'}
-                ${others.length ? ` · aussi : ${others.map(EDN.esc).join(', ')}` : ''}</p>
-            </a></li>`;
+    // Regroupement par item R2C (synthèses Atlas en tête de chaque groupe)
+    const groups = new Map();
+    for (const p of list) {
+      const key = p.items[0] ?? 'Hors item';
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(p);
+    }
+    const keys = [...groups.keys()].sort((a, b) => (a === 'Hors item' ? 1 : b === 'Hors item' ? -1 : a - b));
+    document.getElementById('groups').innerHTML = keys.length
+      ? keys.map((k) => {
+          const ps = groups.get(k).sort((a, b) => (a.source === b.source ? 0 : a.source === 'atlas' ? -1 : 1));
+          return `<section class="item-group">
+            <h2 class="item-title">${k === 'Hors item' ? 'Hors item' : `Item ${k}`}<span>${ps.length}</span></h2>
+            <ul class="patho-grid">${ps.map(card).join('')}</ul>
+          </section>`;
         }).join('')
-      : '<li class="empty">Aucune pathologie ne correspond.</li>';
+      : '<p class="empty">Aucune fiche ne correspond.</p>';
   }
   filter.addEventListener('input', render);
-  onlyDone.addEventListener('change', render);
+  onlyContent.addEventListener('change', render);
   render();
 })();
